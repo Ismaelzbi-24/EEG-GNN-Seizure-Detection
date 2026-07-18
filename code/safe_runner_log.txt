@@ -1,0 +1,676 @@
+OK: sub-Multicenterjh101
+OK: sub-Multicenterjh102
+OK: sub-Multicenterjh103
+OK: sub-Multicenterjh104
+OK: sub-Multicenterjh105
+OK: sub-Multicenterjh106
+FAIL: sub-Multicenterjh107 — 
+OK: sub-Multicenterjh108
+OK: sub-Multicenterpt01
+FAIL: sub-Multicenterpt1 — 
+OK: sub-Multicenterpt10
+OK: sub-Multicenterpt11
+OK: sub-Multicenterpt12
+OK: sub-Multicenterpt13
+OK: sub-Multicenterpt14
+OK: sub-Multicenterpt15
+OK: sub-Multicenterpt16
+OK: sub-Multicenterpt17
+OK: sub-Multicenterpt2
+OK: sub-Multicenterpt3
+OK: sub-Multicenterpt6
+OK: sub-Multicenterpt7
+OK: sub-Multicenterpt8
+OK: sub-Multicenterumf001
+FAIL: sub-Multicenterumf002 — 
+FAIL: sub-Multicenterumf003 — 
+FAIL: sub-Multicenterumf004 — 
+FAIL: sub-Multicenterumf005 — 
+OK: sub-Multicenterummc001
+OK: sub-Multicenterummc002
+OK: sub-Multicenterummc003
+OK: sub-Multicenterummc004
+OK: sub-Multicenterummc005
+OK: sub-Multicenterummc006
+OK: sub-Multicenterummc007
+OK: sub-Multicenterummc008
+OK: sub-Multicenterummc009
+OK: sub-hupHUP060
+OK: sub-hupHUP064
+OK: sub-hupHUP065
+OK: sub-hupHUP070
+OK: sub-hupHUP074
+OK: sub-hupHUP075
+OK: sub-hupHUP080
+OK: sub-hupHUP082
+OK: sub-hupHUP086
+OK: sub-hupHUP087
+OK: sub-hupHUP088
+OK: sub-hupHUP089
+OK: sub-hupHUP094
+OK: sub-hupHUP097
+OK: sub-hupHUP105
+OK: sub-hupHUP106
+OK: sub-hupHUP107
+OK: sub-hupHUP111
+FAIL: sub-hupHUP112 — 
+OK: sub-hupHUP114
+OK: sub-hupHUP116
+OK: sub-hupHUP117
+OK: sub-hupHUP123
+OK: sub-hupHUP126
+OK: sub-hupHUP130
+TIMEOUT: sub-hupHUP132
+OK: sub-hupHUP133
+OK: sub-hupHUP134
+OK: sub-hupHUP135
+OK: sub-hupHUP138
+OK: sub-hupHUP139
+OK: sub-hupHUP140
+OK: sub-hupHUP141
+OK: sub-hupHUP142
+OK: sub-hupHUP144
+OK: sub-hupHUP146
+OK: sub-hupHUP148
+OK: sub-hupHUP150
+OK: sub-hupHUP151
+OK: sub-hupHUP157
+OK: sub-hupHUP158
+OK: sub-hupHUP160
+OK: sub-hupHUP162
+OK: sub-hupHUP163
+OK: sub-hupHUP164
+OK: sub-hupHUP165
+OK: sub-hupHUP166
+OK: sub-hupHUP171
+OK: sub-hupHUP172
+OK: sub-hupHUP173
+OK: sub-hupHUP177
+OK: sub-hupHUP179
+OK: sub-hupHUP180
+OK: sub-hupHUP181
+OK: sub-hupHUP185
+OK: sub-hupHUP187
+OK: sub-hupHUP188
+OK: sub-hupHUP190
+OK: sub-openieegDetroit001
+OK: sub-openieegDetroit002
+OK: sub-openieegDetroit003
+OK: sub-openieegDetroit004
+OK: sub-openieegDetroit005
+OK: sub-openieegDetroit006
+OK: sub-openieegDetroit007
+OK: sub-openieegDetroit008
+OK: sub-openieegDetroit009
+OK: sub-openieegDetroit010
+OK: sub-openieegDetroit011
+OK: sub-openieegDetroit012
+OK: sub-openieegDetroit013
+OK: sub-openieegDetroit014
+OK: sub-openieegDetroit015
+OK: sub-openieegDetroit016
+OK: sub-openieegDetroit017
+OK: sub-openieegDetroit018
+OK: sub-openieegDetroit019
+OK: sub-openieegDetroit020
+OK: sub-openieegDetroit021
+OK: sub-openieegDetroit022
+OK: sub-openieegDetroit023
+OK: sub-openieegDetroit024
+OK: sub-openieegDetroit025
+OK: sub-openieegDetroit026
+OK: sub-openieegDetroit027
+OK: sub-openieegDetroit028
+OK: sub-openieegDetroit029
+OK: sub-openieegDetroit030
+OK: sub-openieegDetroit031
+OK: sub-openieegDetroit032
+OK: sub-openieegDetroit033
+OK: sub-openieegDetroit034
+OK: sub-openieegDetroit035
+OK: sub-openieegDetroit036
+OK: sub-openieegDetroit037
+OK: sub-openieegDetroit038
+OK: sub-openieegDetroit039
+OK: sub-openieegDetroit040
+OK: sub-openieegDetroit041
+OK: sub-openieegDetroit042
+OK: sub-openieegDetroit043
+OK: sub-openieegDetroit044
+OK: sub-openieegDetroit045
+OK: sub-openieegDetroit046
+OK: sub-openieegDetroit047
+OK: sub-openieegDetroit048
+OK: sub-openieegDetroit049
+OK: sub-openieegDetroit050
+OK: sub-openieegDetroit051
+OK: sub-openieegDetroit052
+OK: sub-openieegDetroit053
+OK: sub-openieegDetroit054
+OK: sub-openieegDetroit055
+OK: sub-openieegDetroit056
+OK: sub-openieegDetroit057
+OK: sub-openieegDetroit058
+OK: sub-openieegDetroit059
+OK: sub-openieegDetroit060
+OK: sub-openieegDetroit061
+OK: sub-openieegDetroit062
+OK: sub-openieegDetroit063
+OK: sub-openieegDetroit064
+OK: sub-openieegDetroit065
+OK: sub-openieegDetroit066
+OK: sub-openieegDetroit067
+OK: sub-openieegDetroit068
+OK: sub-openieegDetroit069
+OK: sub-openieegDetroit070
+OK: sub-openieegDetroit071
+OK: sub-openieegDetroit072
+OK: sub-openieegDetroit073
+OK: sub-openieegDetroit074
+OK: sub-openieegDetroit075
+OK: sub-openieegDetroit076
+OK: sub-openieegDetroit077
+OK: sub-openieegDetroit078
+OK: sub-openieegDetroit079
+OK: sub-openieegDetroit080
+OK: sub-openieegDetroit081
+OK: sub-openieegDetroit082
+OK: sub-openieegDetroit083
+OK: sub-openieegDetroit084
+OK: sub-openieegDetroit085
+OK: sub-openieegDetroit086
+OK: sub-openieegDetroit087
+OK: sub-openieegDetroit088
+OK: sub-openieegDetroit089
+OK: sub-openieegDetroit090
+OK: sub-openieegDetroit091
+OK: sub-openieegDetroit092
+OK: sub-openieegDetroit093
+OK: sub-openieegDetroit094
+OK: sub-openieegDetroit095
+OK: sub-openieegDetroit096
+OK: sub-openieegDetroit097
+OK: sub-openieegDetroit098
+OK: sub-openieegDetroit099
+OK: sub-openieegDetroit100
+OK: sub-openieegDetroit101
+OK: sub-openieegDetroit102
+OK: sub-openieegDetroit103
+OK: sub-openieegDetroit104
+OK: sub-openieegDetroit105
+OK: sub-openieegDetroit106
+OK: sub-openieegDetroit107
+OK: sub-openieegDetroit108
+OK: sub-openieegDetroit109
+OK: sub-openieegDetroit110
+OK: sub-openieegDetroit111
+OK: sub-openieegDetroit112
+OK: sub-openieegDetroit113
+OK: sub-openieegDetroit114
+OK: sub-openieegDetroit115
+OK: sub-openieegDetroit116
+OK: sub-openieegDetroit117
+OK: sub-openieegDetroit118
+OK: sub-openieegDetroit119
+OK: sub-openieegDetroit120
+OK: sub-openieegDetroit121
+OK: sub-openieegDetroit122
+OK: sub-openieegDetroit123
+OK: sub-openieegDetroit124
+OK: sub-openieegDetroit125
+OK: sub-openieegDetroit126
+OK: sub-openieegDetroit127
+OK: sub-openieegDetroit128
+OK: sub-openieegDetroit129
+OK: sub-openieegDetroit130
+OK: sub-openieegDetroit131
+OK: sub-openieegDetroit132
+OK: sub-openieegDetroit133
+OK: sub-openieegDetroit134
+OK: sub-openieegDetroit135
+OK: sub-openieegUCLA01
+OK: sub-openieegUCLA02
+OK: sub-openieegUCLA03
+OK: sub-openieegUCLA04
+OK: sub-openieegUCLA05
+OK: sub-openieegUCLA06
+OK: sub-openieegUCLA07
+TIMEOUT: sub-openieegUCLA08
+OK: sub-openieegUCLA09
+TIMEOUT: sub-openieegUCLA10
+OK: sub-openieegUCLA11
+OK: sub-openieegUCLA12
+OK: sub-openieegUCLA13
+OK: sub-openieegUCLA14
+OK: sub-openieegUCLA15
+OK: sub-openieegUCLA16
+OK: sub-openieegUCLA17
+OK: sub-openieegUCLA18
+TIMEOUT: sub-openieegUCLA19
+TIMEOUT: sub-openieegUCLA20
+TIMEOUT: sub-openieegUCLA21
+TIMEOUT: sub-openieegUCLA22
+OK: sub-openieegUCLA23
+TIMEOUT: sub-openieegUCLA24
+TIMEOUT: sub-openieegUCLA25
+TIMEOUT: sub-openieegUCLA26
+TIMEOUT: sub-openieegUCLA27
+TIMEOUT: sub-openieegUCLA28
+OK: sub-openieegUCLA29
+OK: sub-openieegUCLA30
+OK: sub-openieegUCLA31
+OK: sub-openieegUCLA32
+TIMEOUT: sub-openieegUCLA33
+TIMEOUT: sub-openieegUCLA34
+OK: sub-openieegUCLA35
+OK: sub-openieegUCLA36
+OK: sub-openieegUCLA37
+OK: sub-openieegUCLA38
+TIMEOUT: sub-openieegUCLA39
+OK: sub-openieegUCLA40
+TIMEOUT: sub-openieegUCLA41
+OK: sub-openieegUCLA42
+OK: sub-openieegUCLA43
+TIMEOUT: sub-openieegUCLA44
+OK: sub-openieegUCLA45
+OK: sub-openieegUCLA46
+TIMEOUT: sub-openieegUCLA47
+OK: sub-openieegUCLA48
+OK: sub-openieegUCLA49
+OK: sub-openieegUCLA50
+OK: sub-sourcesinkNIH1
+OK: sub-sourcesinkNIH10
+OK: sub-sourcesinkNIH11
+OK: sub-sourcesinkNIH2
+OK: sub-sourcesinkNIH3
+OK: sub-sourcesinkNIH4
+OK: sub-sourcesinkNIH5
+OK: sub-sourcesinkNIH6
+OK: sub-sourcesinkNIH7
+OK: sub-sourcesinkNIH8
+OK: sub-sourcesinkNIH9
+OK: sub-sourcesinkPY18N002
+OK: sub-sourcesinkPY18N007
+OK: sub-sourcesinkPY18N013
+OK: sub-sourcesinkPY18N015
+OK: sub-sourcesinkPY19N012
+OK: sub-sourcesinkPY19N015
+OK: sub-sourcesinkPY19N023
+OK: sub-sourcesinkPY19N026
+OK: sub-sourcesinkjh103
+OK: sub-sourcesinkjh105
+OK: sub-sourcesinkpt1
+OK: sub-sourcesinkpt2
+OK: sub-sourcesinkpt3
+OK: sub-sourcesinkrns002
+OK: sub-sourcesinkrns003
+OK: sub-sourcesinkrns004
+OK: sub-sourcesinkrns005
+OK: sub-sourcesinkrns006
+OK: sub-sourcesinkrns011
+OK: sub-sourcesinkrns013
+OK: sub-sourcesinkrns014
+OK: sub-sourcesinkrns015
+OK: sub-sourcesinkumf002
+OK: sub-sourcesinkumf003
+OK: sub-sourcesinkumf004
+OK: sub-sourcesinkumf005
+OK: sub-zurich01
+OK: sub-zurich02
+OK: sub-zurich03
+TIMEOUT: sub-zurich04
+TIMEOUT: sub-zurich05
+TIMEOUT: sub-zurich06
+OK: sub-zurich07
+OK: sub-zurich08
+OK: sub-zurich09
+OK: sub-zurich10
+OK: sub-zurich11
+OK: sub-zurich12
+OK: sub-zurich13
+OK: sub-zurich14
+OK: sub-zurich15
+OK: sub-zurich16
+OK: sub-zurich17
+OK: sub-zurich18
+OK: sub-zurich19
+OK: sub-zurich20
+etroit074...
+  OK
+[170/337] Processing sub-openieegDetroit075...
+  OK
+[171/337] Processing sub-openieegDetroit076...
+  OK
+[172/337] Processing sub-openieegDetroit077...
+  OK
+[173/337] Processing sub-openieegDetroit078...
+  OK
+[174/337] Processing sub-openieegDetroit079...
+  OK
+[175/337] Processing sub-openieegDetroit080...
+  OK
+[176/337] Processing sub-openieegDetroit081...
+  OK
+[177/337] Processing sub-openieegDetroit082...
+  OK
+[178/337] Processing sub-openieegDetroit083...
+  OK
+[179/337] Processing sub-openieegDetroit084...
+  OK
+[180/337] Processing sub-openieegDetroit085...
+  OK
+[181/337] Processing sub-openieegDetroit086...
+  OK
+[182/337] Processing sub-openieegDetroit087...
+  OK
+[183/337] Processing sub-openieegDetroit088...
+  OK
+[184/337] Processing sub-openieegDetroit089...
+  OK
+[185/337] Processing sub-openieegDetroit090...
+  OK
+[186/337] Processing sub-openieegDetroit091...
+  OK
+[187/337] Processing sub-openieegDetroit092...
+  OK
+[188/337] Processing sub-openieegDetroit093...
+  OK
+[189/337] Processing sub-openieegDetroit094...
+  OK
+[190/337] Processing sub-openieegDetroit095...
+  OK
+[191/337] Processing sub-openieegDetroit096...
+  OK
+[192/337] Processing sub-openieegDetroit097...
+  OK
+[193/337] Processing sub-openieegDetroit098...
+  OK
+[194/337] Processing sub-openieegDetroit099...
+  OK
+[195/337] Processing sub-openieegDetroit100...
+  OK
+[196/337] Processing sub-openieegDetroit101...
+  OK
+[197/337] Processing sub-openieegDetroit102...
+  OK
+[198/337] Processing sub-openieegDetroit103...
+  OK
+[199/337] Processing sub-openieegDetroit104...
+  OK
+[200/337] Processing sub-openieegDetroit105...
+  OK
+[201/337] Processing sub-openieegDetroit106...
+  OK
+[202/337] Processing sub-openieegDetroit107...
+  OK
+[203/337] Processing sub-openieegDetroit108...
+  OK
+[204/337] Processing sub-openieegDetroit109...
+  OK
+[205/337] Processing sub-openieegDetroit110...
+  OK
+[206/337] Processing sub-openieegDetroit111...
+  OK
+[207/337] Processing sub-openieegDetroit112...
+  OK
+[208/337] Processing sub-openieegDetroit113...
+  OK
+[209/337] Processing sub-openieegDetroit114...
+  OK
+[210/337] Processing sub-openieegDetroit115...
+  OK
+[211/337] Processing sub-openieegDetroit116...
+  OK
+[212/337] Processing sub-openieegDetroit117...
+  OK
+[213/337] Processing sub-openieegDetroit118...
+  OK
+[214/337] Processing sub-openieegDetroit119...
+  OK
+[215/337] Processing sub-openieegDetroit120...
+  OK
+[216/337] Processing sub-openieegDetroit121...
+  OK
+[217/337] Processing sub-openieegDetroit122...
+  OK
+[218/337] Processing sub-openieegDetroit123...
+  OK
+[219/337] Processing sub-openieegDetroit124...
+  OK
+[220/337] Processing sub-openieegDetroit125...
+  OK
+[221/337] Processing sub-openieegDetroit126...
+  OK
+[222/337] Processing sub-openieegDetroit127...
+  OK
+[223/337] Processing sub-openieegDetroit128...
+  OK
+[224/337] Processing sub-openieegDetroit129...
+  OK
+[225/337] Processing sub-openieegDetroit130...
+  OK
+[226/337] Processing sub-openieegDetroit131...
+  OK
+[227/337] Processing sub-openieegDetroit132...
+  OK
+[228/337] Processing sub-openieegDetroit133...
+  OK
+[229/337] Processing sub-openieegDetroit134...
+  OK
+[230/337] Processing sub-openieegDetroit135...
+  OK
+[231/337] Processing sub-openieegUCLA01...
+  OK
+[232/337] Processing sub-openieegUCLA02...
+  OK
+[233/337] Processing sub-openieegUCLA03...
+  OK
+[234/337] Processing sub-openieegUCLA04...
+  OK
+[235/337] Processing sub-openieegUCLA05...
+  OK
+[236/337] Processing sub-openieegUCLA06...
+  OK
+[237/337] Processing sub-openieegUCLA07...
+  OK
+[238/337] Processing sub-openieegUCLA08...
+  TIMEOUT — skipping
+[239/337] Processing sub-openieegUCLA09...
+  OK
+[240/337] Processing sub-openieegUCLA10...
+  TIMEOUT — skipping
+[241/337] Processing sub-openieegUCLA11...
+  OK
+[242/337] Processing sub-openieegUCLA12...
+  OK
+[243/337] Processing sub-openieegUCLA13...
+  OK
+[244/337] Processing sub-openieegUCLA14...
+  OK
+[245/337] Processing sub-openieegUCLA15...
+  OK
+[246/337] Processing sub-openieegUCLA16...
+  OK
+[247/337] Processing sub-openieegUCLA17...
+  OK
+[248/337] Processing sub-openieegUCLA18...
+  OK
+[249/337] Processing sub-openieegUCLA19...
+  TIMEOUT — skipping
+[250/337] Processing sub-openieegUCLA20...
+  TIMEOUT — skipping
+[251/337] Processing sub-openieegUCLA21...
+  TIMEOUT — skipping
+[252/337] Processing sub-openieegUCLA22...
+  TIMEOUT — skipping
+[253/337] Processing sub-openieegUCLA23...
+  OK
+[254/337] Processing sub-openieegUCLA24...
+  TIMEOUT — skipping
+[255/337] Processing sub-openieegUCLA25...
+  TIMEOUT — skipping
+[256/337] Processing sub-openieegUCLA26...
+  TIMEOUT — skipping
+[257/337] Processing sub-openieegUCLA27...
+  TIMEOUT — skipping
+[258/337] Processing sub-openieegUCLA28...
+  TIMEOUT — skipping
+[259/337] Processing sub-openieegUCLA29...
+  OK
+[260/337] Processing sub-openieegUCLA30...
+  OK
+[261/337] Processing sub-openieegUCLA31...
+  OK
+[262/337] Processing sub-openieegUCLA32...
+  OK
+[263/337] Processing sub-openieegUCLA33...
+  TIMEOUT — skipping
+[264/337] Processing sub-openieegUCLA34...
+  TIMEOUT — skipping
+[265/337] Processing sub-openieegUCLA35...
+  OK
+[266/337] Processing sub-openieegUCLA36...
+  OK
+[267/337] Processing sub-openieegUCLA37...
+  OK
+[268/337] Processing sub-openieegUCLA38...
+  OK
+[269/337] Processing sub-openieegUCLA39...
+  TIMEOUT — skipping
+[270/337] Processing sub-openieegUCLA40...
+  OK
+[271/337] Processing sub-openieegUCLA41...
+  TIMEOUT — skipping
+[272/337] Processing sub-openieegUCLA42...
+  OK
+[273/337] Processing sub-openieegUCLA43...
+  OK
+[274/337] Processing sub-openieegUCLA44...
+  TIMEOUT — skipping
+[275/337] Processing sub-openieegUCLA45...
+  OK
+[276/337] Processing sub-openieegUCLA46...
+  OK
+[277/337] Processing sub-openieegUCLA47...
+  TIMEOUT — skipping
+[278/337] Processing sub-openieegUCLA48...
+  OK
+[279/337] Processing sub-openieegUCLA49...
+  OK
+[280/337] Processing sub-openieegUCLA50...
+  OK
+[281/337] Processing sub-sourcesinkNIH1...
+  OK
+[282/337] Processing sub-sourcesinkNIH10...
+  OK
+[283/337] Processing sub-sourcesinkNIH11...
+  OK
+[284/337] Processing sub-sourcesinkNIH2...
+  OK
+[285/337] Processing sub-sourcesinkNIH3...
+  OK
+[286/337] Processing sub-sourcesinkNIH4...
+  OK
+[287/337] Processing sub-sourcesinkNIH5...
+  OK
+[288/337] Processing sub-sourcesinkNIH6...
+  OK
+[289/337] Processing sub-sourcesinkNIH7...
+  OK
+[290/337] Processing sub-sourcesinkNIH8...
+  OK
+[291/337] Processing sub-sourcesinkNIH9...
+  OK
+[292/337] Processing sub-sourcesinkPY18N002...
+  OK
+[293/337] Processing sub-sourcesinkPY18N007...
+  OK
+[294/337] Processing sub-sourcesinkPY18N013...
+  OK
+[295/337] Processing sub-sourcesinkPY18N015...
+  OK
+[296/337] Processing sub-sourcesinkPY19N012...
+  OK
+[297/337] Processing sub-sourcesinkPY19N015...
+  OK
+[298/337] Processing sub-sourcesinkPY19N023...
+  OK
+[299/337] Processing sub-sourcesinkPY19N026...
+  OK
+[300/337] Processing sub-sourcesinkjh103...
+  OK
+[301/337] Processing sub-sourcesinkjh105...
+  OK
+[302/337] Processing sub-sourcesinkpt1...
+  OK
+[303/337] Processing sub-sourcesinkpt2...
+  OK
+[304/337] Processing sub-sourcesinkpt3...
+  OK
+[305/337] Processing sub-sourcesinkrns002...
+  OK
+[306/337] Processing sub-sourcesinkrns003...
+  OK
+[307/337] Processing sub-sourcesinkrns004...
+  OK
+[308/337] Processing sub-sourcesinkrns005...
+  OK
+[309/337] Processing sub-sourcesinkrns006...
+  OK
+[310/337] Processing sub-sourcesinkrns011...
+  OK
+[311/337] Processing sub-sourcesinkrns013...
+  OK
+[312/337] Processing sub-sourcesinkrns014...
+  OK
+[313/337] Processing sub-sourcesinkrns015...
+  OK
+[314/337] Processing sub-sourcesinkumf002...
+  OK
+[315/337] Processing sub-sourcesinkumf003...
+  OK
+[316/337] Processing sub-sourcesinkumf004...
+  OK
+[317/337] Processing sub-sourcesinkumf005...
+  OK
+[318/337] Processing sub-zurich01...
+  OK
+[319/337] Processing sub-zurich02...
+  OK
+[320/337] Processing sub-zurich03...
+  OK
+[321/337] Processing sub-zurich04...
+  TIMEOUT — skipping
+[322/337] Processing sub-zurich05...
+  TIMEOUT — skipping
+[323/337] Processing sub-zurich06...
+  TIMEOUT — skipping
+[324/337] Processing sub-zurich07...
+  OK
+[325/337] Processing sub-zurich08...
+  OK
+[326/337] Processing sub-zurich09...
+  OK
+[327/337] Processing sub-zurich10...
+  OK
+[328/337] Processing sub-zurich11...
+  OK
+[329/337] Processing sub-zurich12...
+  OK
+[330/337] Processing sub-zurich13...
+  OK
+[331/337] Processing sub-zurich14...
+  OK
+[332/337] Processing sub-zurich15...
+  OK
+[333/337] Processing sub-zurich16...
+  OK
+[334/337] Processing sub-zurich17...
+  OK
+[335/337] Processing sub-zurich18...
+  OK
+[336/337] Processing sub-zurich19...
+  OK
+[337/337] Processing sub-zurich20...
+  OK
+Done! Check safe_runner_log.txt for results

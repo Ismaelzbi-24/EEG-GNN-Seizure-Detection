@@ -1,0 +1,171 @@
+nohup: ignoring input
+Device: cuda
+GPU: NVIDIA RTX A5000
+
+Config:
+  Folds   : 5
+  Epochs  : 120
+  Hidden  : 128
+  Heads   : 8
+  Batch   : 32
+  LR      : 0.0005
+
+Loading dataset...
+Total graphs  : 13704
+Unique patients: 310
+Feature dim    : 18
+Node SOZ (1)  : 169849 (21.3%)
+Node Normal(0): 627988 (78.7%)
+
+Scaling features...
+Scaling done.
+
+=======================================================
+  5-Fold Cross Validation — Improved GAT v3
+=======================================================
+
+=======================================================
+  FOLD 1/5
+=======================================================
+  Train graphs: 10963
+  Test  graphs: 2741
+  Ep   1 | Loss: 0.0477 | F1: 0.5983 | Rec: 0.6536 | Prec: 0.5515 | AUC: 0.8275 | Thresh: 0.47
+  Ep  10 | Loss: 0.0406 | F1: 0.6167 | Rec: 0.6603 | Prec: 0.5786 | AUC: 0.8326 | Thresh: 0.50
+  Ep  20 | Loss: 0.0383 | F1: 0.5963 | Rec: 0.6773 | Prec: 0.5326 | AUC: 0.8354 | Thresh: 0.47
+  Ep  30 | Loss: 0.0369 | F1: 0.5969 | Rec: 0.6841 | Prec: 0.5295 | AUC: 0.8441 | Thresh: 0.45
+  Ep  40 | Loss: 0.0361 | F1: 0.6034 | Rec: 0.6631 | Prec: 0.5536 | AUC: 0.8367 | Thresh: 0.47
+  Ep  50 | Loss: 0.0355 | F1: 0.6014 | Rec: 0.6661 | Prec: 0.5481 | AUC: 0.8430 | Thresh: 0.46
+  Ep  60 | Loss: 0.0350 | F1: 0.5989 | Rec: 0.6647 | Prec: 0.5449 | AUC: 0.8444 | Thresh: 0.47
+  Ep  70 | Loss: 0.0347 | F1: 0.5888 | Rec: 0.6745 | Prec: 0.5225 | AUC: 0.8418 | Thresh: 0.46
+  Ep  80 | Loss: 0.0344 | F1: 0.5817 | Rec: 0.6728 | Prec: 0.5124 | AUC: 0.8401 | Thresh: 0.46
+  Ep  90 | Loss: 0.0341 | F1: 0.5938 | Rec: 0.6726 | Prec: 0.5315 | AUC: 0.8459 | Thresh: 0.47
+  Ep 100 | Loss: 0.0338 | F1: 0.5877 | Rec: 0.6709 | Prec: 0.5228 | AUC: 0.8435 | Thresh: 0.46
+  Ep 110 | Loss: 0.0337 | F1: 0.5844 | Rec: 0.6850 | Prec: 0.5096 | AUC: 0.8444 | Thresh: 0.46
+  Ep 120 | Loss: 0.0337 | F1: 0.5829 | Rec: 0.6772 | Prec: 0.5117 | AUC: 0.8422 | Thresh: 0.46
+
+  Best Fold 1:
+  Acc=0.8453 | F1=0.6167 | Prec=0.5786 | Rec=0.6603 | AUC=0.8326
+  CM [[TN FP] [FN TP]]: [[113863  14318]
+ [ 10116  19660]]
+
+=======================================================
+  FOLD 2/5
+=======================================================
+  Train graphs: 10963
+  Test  graphs: 2741
+  Ep   1 | Loss: 0.0463 | F1: 0.7179 | Rec: 0.7242 | Prec: 0.7117 | AUC: 0.8403 | Thresh: 0.53
+  Ep  10 | Loss: 0.0396 | F1: 0.7402 | Rec: 0.7394 | Prec: 0.7410 | AUC: 0.8562 | Thresh: 0.50
+  Ep  20 | Loss: 0.0376 | F1: 0.7314 | Rec: 0.7119 | Prec: 0.7521 | AUC: 0.8615 | Thresh: 0.54
+  Ep  30 | Loss: 0.0364 | F1: 0.7495 | Rec: 0.7099 | Prec: 0.7938 | AUC: 0.8659 | Thresh: 0.56
+  Ep  40 | Loss: 0.0358 | F1: 0.7262 | Rec: 0.7077 | Prec: 0.7456 | AUC: 0.8605 | Thresh: 0.54
+  Ep  50 | Loss: 0.0352 | F1: 0.7352 | Rec: 0.7057 | Prec: 0.7672 | AUC: 0.8698 | Thresh: 0.55
+  Ep  60 | Loss: 0.0347 | F1: 0.7361 | Rec: 0.7087 | Prec: 0.7657 | AUC: 0.8689 | Thresh: 0.54
+  Ep  70 | Loss: 0.0345 | F1: 0.7306 | Rec: 0.6901 | Prec: 0.7763 | AUC: 0.8566 | Thresh: 0.54
+  Ep  80 | Loss: 0.0340 | F1: 0.7380 | Rec: 0.6905 | Prec: 0.7925 | AUC: 0.8651 | Thresh: 0.54
+  Ep  90 | Loss: 0.0337 | F1: 0.7339 | Rec: 0.6843 | Prec: 0.7911 | AUC: 0.8659 | Thresh: 0.55
+  Ep 100 | Loss: 0.0335 | F1: 0.7388 | Rec: 0.6953 | Prec: 0.7881 | AUC: 0.8671 | Thresh: 0.54
+  Ep 110 | Loss: 0.0334 | F1: 0.7398 | Rec: 0.6979 | Prec: 0.7870 | AUC: 0.8652 | Thresh: 0.54
+  Ep 120 | Loss: 0.0333 | F1: 0.7384 | Rec: 0.6866 | Prec: 0.7986 | AUC: 0.8642 | Thresh: 0.55
+
+  Best Fold 2:
+  Acc=0.8602 | F1=0.7495 | Prec=0.7938 | Rec=0.7099 | AUC=0.8659
+  CM [[TN FP] [FN TP]]: [[101625   8478]
+ [ 13333  32631]]
+
+=======================================================
+  FOLD 3/5
+=======================================================
+  Train graphs: 10963
+  Test  graphs: 2741
+  Ep   1 | Loss: 0.0473 | F1: 0.3499 | Rec: 0.5017 | Prec: 0.2686 | AUC: 0.7067 | Thresh: 0.48
+  Ep  10 | Loss: 0.0400 | F1: 0.3995 | Rec: 0.4388 | Prec: 0.3666 | AUC: 0.7287 | Thresh: 0.51
+  Ep  20 | Loss: 0.0375 | F1: 0.3938 | Rec: 0.5610 | Prec: 0.3034 | AUC: 0.7462 | Thresh: 0.46
+  Ep  30 | Loss: 0.0360 | F1: 0.3630 | Rec: 0.7120 | Prec: 0.2436 | AUC: 0.7555 | Thresh: 0.43
+  Ep  40 | Loss: 0.0353 | F1: 0.4132 | Rec: 0.5280 | Prec: 0.3393 | AUC: 0.7516 | Thresh: 0.48
+  Ep  50 | Loss: 0.0347 | F1: 0.3927 | Rec: 0.6464 | Prec: 0.2820 | AUC: 0.7693 | Thresh: 0.45
+  Ep  60 | Loss: 0.0343 | F1: 0.4091 | Rec: 0.5566 | Prec: 0.3234 | AUC: 0.7596 | Thresh: 0.48
+  Ep  70 | Loss: 0.0339 | F1: 0.4056 | Rec: 0.5773 | Prec: 0.3126 | AUC: 0.7656 | Thresh: 0.47
+  Ep  80 | Loss: 0.0337 | F1: 0.3994 | Rec: 0.6295 | Prec: 0.2925 | AUC: 0.7657 | Thresh: 0.45
+  Ep  90 | Loss: 0.0332 | F1: 0.4026 | Rec: 0.6254 | Prec: 0.2968 | AUC: 0.7675 | Thresh: 0.45
+  Ep 100 | Loss: 0.0331 | F1: 0.4020 | Rec: 0.6060 | Prec: 0.3008 | AUC: 0.7665 | Thresh: 0.46
+  Ep 110 | Loss: 0.0331 | F1: 0.4036 | Rec: 0.6141 | Prec: 0.3006 | AUC: 0.7631 | Thresh: 0.45
+  Ep 120 | Loss: 0.0330 | F1: 0.4132 | Rec: 0.5700 | Prec: 0.3241 | AUC: 0.7644 | Thresh: 0.47
+
+  Best Fold 3:
+  Acc=0.7699 | F1=0.4132 | Prec=0.3241 | Rec=0.5700 | AUC=0.7644
+  CM [[TN FP] [FN TP]]: [[115083  28233]
+ [ 10211  13535]]
+
+=======================================================
+  FOLD 4/5
+=======================================================
+  Train graphs: 10963
+  Test  graphs: 2741
+  Ep   1 | Loss: 0.0461 | F1: 0.6456 | Rec: 0.6562 | Prec: 0.6352 | AUC: 0.8289 | Thresh: 0.51
+  Ep  10 | Loss: 0.0389 | F1: 0.6623 | Rec: 0.6979 | Prec: 0.6302 | AUC: 0.8490 | Thresh: 0.46
+  Ep  20 | Loss: 0.0368 | F1: 0.6779 | Rec: 0.7252 | Prec: 0.6365 | AUC: 0.8642 | Thresh: 0.46
+  Ep  30 | Loss: 0.0355 | F1: 0.6583 | Rec: 0.7346 | Prec: 0.5963 | AUC: 0.8527 | Thresh: 0.46
+  Ep  40 | Loss: 0.0348 | F1: 0.6626 | Rec: 0.7311 | Prec: 0.6059 | AUC: 0.8557 | Thresh: 0.46
+  Ep  50 | Loss: 0.0341 | F1: 0.6650 | Rec: 0.7331 | Prec: 0.6085 | AUC: 0.8582 | Thresh: 0.46
+  Ep  60 | Loss: 0.0337 | F1: 0.6726 | Rec: 0.7189 | Prec: 0.6319 | AUC: 0.8571 | Thresh: 0.47
+  Ep  70 | Loss: 0.0334 | F1: 0.6591 | Rec: 0.7313 | Prec: 0.5998 | AUC: 0.8565 | Thresh: 0.46
+  Ep  80 | Loss: 0.0329 | F1: 0.6678 | Rec: 0.7233 | Prec: 0.6201 | AUC: 0.8574 | Thresh: 0.46
+  Ep  90 | Loss: 0.0325 | F1: 0.6786 | Rec: 0.7387 | Prec: 0.6276 | AUC: 0.8664 | Thresh: 0.46
+  Ep 100 | Loss: 0.0323 | F1: 0.6724 | Rec: 0.7396 | Prec: 0.6165 | AUC: 0.8642 | Thresh: 0.46
+  Ep 110 | Loss: 0.0322 | F1: 0.6652 | Rec: 0.7451 | Prec: 0.6007 | AUC: 0.8632 | Thresh: 0.45
+  Ep 120 | Loss: 0.0322 | F1: 0.6632 | Rec: 0.7485 | Prec: 0.5954 | AUC: 0.8612 | Thresh: 0.45
+
+  Best Fold 4:
+  Acc=0.8218 | F1=0.6786 | Prec=0.6276 | Rec=0.7387 | AUC=0.8664
+  CM [[TN FP] [FN TP]]: [[92519 16299]
+ [ 9716 27466]]
+
+=======================================================
+  FOLD 5/5
+=======================================================
+  Train graphs: 10964
+  Test  graphs: 2740
+  Ep   1 | Loss: 0.0468 | F1: 0.5487 | Rec: 0.6980 | Prec: 0.4520 | AUC: 0.8154 | Thresh: 0.44
+  Ep  10 | Loss: 0.0392 | F1: 0.5351 | Rec: 0.7209 | Prec: 0.4254 | AUC: 0.8122 | Thresh: 0.43
+  Ep  20 | Loss: 0.0369 | F1: 0.5252 | Rec: 0.6728 | Prec: 0.4308 | AUC: 0.8067 | Thresh: 0.45
+  Ep  30 | Loss: 0.0357 | F1: 0.5669 | Rec: 0.5956 | Prec: 0.5408 | AUC: 0.8066 | Thresh: 0.50
+  Ep  40 | Loss: 0.0351 | F1: 0.5251 | Rec: 0.6531 | Prec: 0.4391 | AUC: 0.8027 | Thresh: 0.44
+  Ep  50 | Loss: 0.0343 | F1: 0.5331 | Rec: 0.6702 | Prec: 0.4426 | AUC: 0.8158 | Thresh: 0.44
+  Ep  60 | Loss: 0.0338 | F1: 0.5260 | Rec: 0.6377 | Prec: 0.4476 | AUC: 0.8024 | Thresh: 0.44
+  Ep  70 | Loss: 0.0335 | F1: 0.5579 | Rec: 0.6349 | Prec: 0.4976 | AUC: 0.8155 | Thresh: 0.46
+  Ep  80 | Loss: 0.0332 | F1: 0.5412 | Rec: 0.6515 | Prec: 0.4627 | AUC: 0.8121 | Thresh: 0.45
+  Ep  90 | Loss: 0.0328 | F1: 0.5246 | Rec: 0.6539 | Prec: 0.4379 | AUC: 0.8055 | Thresh: 0.44
+  Ep 100 | Loss: 0.0327 | F1: 0.5408 | Rec: 0.6386 | Prec: 0.4690 | AUC: 0.8129 | Thresh: 0.45
+  Ep 110 | Loss: 0.0325 | F1: 0.5374 | Rec: 0.6442 | Prec: 0.4610 | AUC: 0.8109 | Thresh: 0.45
+  Ep 120 | Loss: 0.0324 | F1: 0.5289 | Rec: 0.6623 | Prec: 0.4403 | AUC: 0.8083 | Thresh: 0.44
+
+  Best Fold 5:
+  Acc=0.8232 | F1=0.5669 | Prec=0.5408 | Rec=0.5956 | AUC=0.8066
+  CM [[TN FP] [FN TP]]: [[120793  16777]
+ [ 13419  19762]]
+
+=======================================================
+  FINAL RESULTS — Improved GAT v3
+=======================================================
+  Accuracy : 0.8241 ± 0.0307
+  F1-Score : 0.6050 ± 0.1137
+  Precision: 0.5730 ± 0.1515
+  Recall   : 0.6549 ± 0.0645
+  ROC-AUC  : 0.8272 ± 0.0385
+
+=======================================================
+  COMPARISON WITH PAPER BASELINES
+=======================================================
+  Model                F1   Prec    Rec    AUC
+  --------------------------------------------
+  SEEG-NET         0.5259 0.5790 0.7169 0.7850
+  CLAP             0.6009 0.5936 0.6997 0.7684
+  TimeConv-CNN     0.6469 0.6259 0.7454 0.8061
+  Our GAT v2       0.4881 0.4143 0.6068 0.7477
+  Our GAT v3       0.6050 0.5730 0.6549 0.8272 ←
+
+  Best fold F1 : 0.7495 (Fold 2)
+  Model saved  : /home/pmilab/EEG_GNN_Project/results/omni_gat_v3/best_model_v3.pt
+  Summary      : /home/pmilab/EEG_GNN_Project/results/omni_gat_v3/summary_v3.csv
+
+  TRAINING COMPLETE!

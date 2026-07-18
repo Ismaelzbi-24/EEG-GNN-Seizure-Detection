@@ -1,0 +1,52 @@
+nohup: ignoring input
+
+Total patients found: 337
+Timeout per patient : 120s
+=======================================================
+Scanning patients:   0%|          | 0/337 [00:00<?, ?it/s]
+[1/337] START: sub-Multicenterjh101
+  OK — 20 graphs created
+Scanning patients:   0%|          | 1/337 [00:09<53:03,  9.47s/it]
+[2/337] START: sub-Multicenterjh102
+  OK — 50 graphs created
+Scanning patients:   1%|          | 2/337 [00:31<1:34:36, 16.95s/it]
+[3/337] START: sub-Multicenterjh103
+  OK — 16 graphs created
+Scanning patients:   1%|          | 3/337 [00:38<1:09:08, 12.42s/it]
+[4/337] START: sub-Multicenterjh104
+  OK — 36 graphs created
+Scanning patients:   1%|          | 4/337 [01:01<1:30:51, 16.37s/it]
+[5/337] START: sub-Multicenterjh105
+  OK — 24 graphs created
+Scanning patients:   1%|▏         | 5/337 [01:11<1:18:24, 14.17s/it]
+[6/337] START: sub-Multicenterjh106
+  OK — 4 graphs created
+Scanning patients:   2%|▏         | 6/337 [01:16<1:01:12, 11.10s/it]
+[7/337] START: sub-Multicenterjh107
+  SKIP — no valid graphs (no EDF or bad data)
+
+[8/337] START: sub-Multicenterjh108
+  OK — 26 graphs created
+Scanning patients:   2%|▏         | 8/337 [01:28<47:21,  8.64s/it]  
+[9/337] START: sub-Multicenterpt01
+  OK — 37 graphs created
+Scanning patients:   3%|▎         | 9/337 [01:44<56:50, 10.40s/it]
+[10/337] START: sub-Multicenterpt1
+  SKIP — no valid graphs (no EDF or bad data)
+
+[11/337] START: sub-Multicenterpt10
+  OK — 43 graphs created
+Scanning patients:   3%|▎         | 11/337 [02:01<52:44,  9.71s/it]
+[12/337] START: sub-Multicenterpt11
+  OK — 24 graphs created
+Scanning patients:   4%|▎         | 12/337 [02:12<53:50,  9.94s/it]
+[13/337] START: sub-Multicenterpt12
+  OK — 31 graphs created
+Scanning patients:   4%|▍         | 13/337 [02:24<56:22, 10.44s/it]
+[14/337] START: sub-Multicenterpt13
+  OK — 13 graphs created
+Scanning patients:   4%|▍         | 14/337 [02:30<50:10,  9.32s/it]
+[15/337] START: sub-Multicenterpt14
+  OK — 23 graphs created
+Scanning patients:   4%|▍         | 15/337 [02:39<50:04,  9.33s/it]
+[16/337] START: sub-Multicenterpt15

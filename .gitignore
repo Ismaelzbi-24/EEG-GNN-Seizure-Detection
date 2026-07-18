@@ -1,0 +1,12 @@
+Hiroki/
+Data/
+Ismael_working/
+code/omni_ieeg_graphs.pt
+code/patient_graphs/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.log
+.env
+.DS_Store

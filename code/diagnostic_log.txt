@@ -1,0 +1,1037 @@
+nohup: ignoring input
+
+Total patients found: 337
+Timeout per patient : 120s
+=======================================================
+Scanning patients:   0%|          | 0/337 [00:00<?, ?it/s]
+[1/337] START: sub-Multicenterjh101
+  OK — 20 graphs created
+Scanning patients:   0%|          | 1/337 [00:09<52:17,  9.34s/it]
+[2/337] START: sub-Multicenterjh102
+  OK — 50 graphs created
+Scanning patients:   1%|          | 2/337 [00:31<1:32:45, 16.61s/it]
+[3/337] START: sub-Multicenterjh103
+  OK — 16 graphs created
+Scanning patients:   1%|          | 3/337 [00:38<1:08:19, 12.27s/it]
+[4/337] START: sub-Multicenterjh104
+  OK — 36 graphs created
+Scanning patients:   1%|          | 4/337 [01:00<1:30:29, 16.30s/it]
+[5/337] START: sub-Multicenterjh105
+  OK — 24 graphs created
+Scanning patients:   1%|▏         | 5/337 [01:11<1:18:28, 14.18s/it]
+[6/337] START: sub-Multicenterjh106
+  OK — 4 graphs created
+Scanning patients:   2%|▏         | 6/337 [01:16<1:01:11, 11.09s/it]
+[7/337] START: sub-Multicenterjh107
+  SKIP — no valid graphs (no EDF or bad data)
+
+[8/337] START: sub-Multicenterjh108
+  OK — 26 graphs created
+Scanning patients:   2%|▏         | 8/337 [01:28<47:49,  8.72s/it]  
+[9/337] START: sub-Multicenterpt01
+  OK — 37 graphs created
+Scanning patients:   3%|▎         | 9/337 [01:44<57:48, 10.58s/it]
+[10/337] START: sub-Multicenterpt1
+  SKIP — no valid graphs (no EDF or bad data)
+
+[11/337] START: sub-Multicenterpt10
+  OK — 43 graphs created
+Scanning patients:   3%|▎         | 11/337 [02:02<53:27,  9.84s/it]
+[12/337] START: sub-Multicenterpt11
+  OK — 24 graphs created
+Scanning patients:   4%|▎         | 12/337 [02:13<54:37, 10.08s/it]
+[13/337] START: sub-Multicenterpt12
+  OK — 31 graphs created
+Scanning patients:   4%|▍         | 13/337 [02:24<56:36, 10.48s/it]
+[14/337] START: sub-Multicenterpt13
+  OK — 13 graphs created
+Scanning patients:   4%|▍         | 14/337 [02:30<50:07,  9.31s/it]
+[15/337] START: sub-Multicenterpt14
+  OK — 23 graphs created
+Scanning patients:   4%|▍         | 15/337 [02:39<49:40,  9.26s/it]
+[16/337] START: sub-Multicenterpt15
+  OK — 79 graphs created
+Scanning patients:   5%|▍         | 16/337 [03:10<1:22:03, 15.34s/it]
+[17/337] START: sub-Multicenterpt16
+  OK — 40 graphs created
+Scanning patients:   5%|▌         | 17/337 [03:25<1:20:02, 15.01s/it]
+[18/337] START: sub-Multicenterpt17
+  OK — 19 graphs created
+Scanning patients:   5%|▌         | 18/337 [03:35<1:12:41, 13.67s/it]
+[19/337] START: sub-Multicenterpt2
+  OK — 48 graphs created
+Scanning patients:   6%|▌         | 19/337 [03:55<1:21:40, 15.41s/it]
+[20/337] START: sub-Multicenterpt3
+  OK — 18 graphs created
+Scanning patients:   6%|▌         | 20/337 [04:03<1:09:50, 13.22s/it]
+[21/337] START: sub-Multicenterpt6
+  OK — 36 graphs created
+Scanning patients:   6%|▌         | 21/337 [04:18<1:12:31, 13.77s/it]
+[22/337] START: sub-Multicenterpt7
+  OK — 26 graphs created
+Scanning patients:   7%|▋         | 22/337 [04:29<1:08:16, 13.00s/it]
+[23/337] START: sub-Multicenterpt8
+  OK — 14 graphs created
+Scanning patients:   7%|▋         | 23/337 [04:35<57:02, 10.90s/it]  
+[24/337] START: sub-Multicenterumf001
+  OK — 5 graphs created
+Scanning patients:   7%|▋         | 24/337 [04:37<43:20,  8.31s/it]
+[25/337] START: sub-Multicenterumf002
+  SKIP — no valid graphs (no EDF or bad data)
+
+[26/337] START: sub-Multicenterumf003
+  SKIP — no valid graphs (no EDF or bad data)
+Scanning patients:   8%|▊         | 26/337 [04:37<23:27,  4.53s/it]
+[27/337] START: sub-Multicenterumf004
+  SKIP — no valid graphs (no EDF or bad data)
+
+[28/337] START: sub-Multicenterumf005
+  SKIP — no valid graphs (no EDF or bad data)
+Scanning patients:   8%|▊         | 28/337 [04:37<14:14,  2.77s/it]
+[29/337] START: sub-Multicenterummc001
+  OK — 16 graphs created
+Scanning patients:   9%|▊         | 29/337 [04:46<21:10,  4.12s/it]
+[30/337] START: sub-Multicenterummc002
+  OK — 20 graphs created
+Scanning patients:   9%|▉         | 30/337 [04:58<30:57,  6.05s/it]
+[31/337] START: sub-Multicenterummc003
+  OK — 18 graphs created
+Scanning patients:   9%|▉         | 31/337 [05:09<36:09,  7.09s/it]
+[32/337] START: sub-Multicenterummc004
+  OK — 19 graphs created
+Scanning patients:   9%|▉         | 32/337 [05:18<39:09,  7.70s/it]
+[33/337] START: sub-Multicenterummc005
+  OK — 14 graphs created
+Scanning patients:  10%|▉         | 33/337 [05:23<35:23,  6.98s/it]
+[34/337] START: sub-Multicenterummc006
+  OK — 19 graphs created
+Scanning patients:  10%|█         | 34/337 [05:33<40:03,  7.93s/it]
+[35/337] START: sub-Multicenterummc007
+  OK — 26 graphs created
+Scanning patients:  10%|█         | 35/337 [05:43<42:25,  8.43s/it]
+[36/337] START: sub-Multicenterummc008
+  OK — 20 graphs created
+Scanning patients:  11%|█         | 36/337 [05:52<42:19,  8.44s/it]
+[37/337] START: sub-Multicenterummc009
+  OK — 14 graphs created
+Scanning patients:  11%|█         | 37/337 [05:57<37:30,  7.50s/it]
+[38/337] START: sub-hupHUP060
+  OK — 45 graphs created
+Scanning patients:  11%|█▏        | 38/337 [06:07<41:11,  8.27s/it]
+[39/337] START: sub-hupHUP064
+  OK — 16 graphs created
+Scanning patients:  12%|█▏        | 39/337 [06:14<39:16,  7.91s/it]
+[40/337] START: sub-hupHUP065
+  OK — 38 graphs created
+Scanning patients:  12%|█▏        | 40/337 [06:30<51:42, 10.45s/it]
+[41/337] START: sub-hupHUP070
+  OK — 41 graphs created
+Scanning patients:  12%|█▏        | 41/337 [06:48<1:01:32, 12.48s/it]
+[42/337] START: sub-hupHUP074
+  OK — 51 graphs created
+Scanning patients:  12%|█▏        | 42/337 [07:11<1:18:02, 15.87s/it]
+[43/337] START: sub-hupHUP075
+  OK — 43 graphs created
+Scanning patients:  13%|█▎        | 43/337 [07:31<1:22:33, 16.85s/it]
+[44/337] START: sub-hupHUP080
+  OK — 44 graphs created
+Scanning patients:  13%|█▎        | 44/337 [07:49<1:25:17, 17.47s/it]
+[45/337] START: sub-hupHUP082
+  OK — 137 graphs created
+Scanning patients:  13%|█▎        | 45/337 [08:47<2:23:49, 29.55s/it]
+[46/337] START: sub-hupHUP086
+  OK — 30 graphs created
+Scanning patients:  14%|█▎        | 46/337 [09:01<2:00:33, 24.86s/it]
+[47/337] START: sub-hupHUP087
+  OK — 29 graphs created
+Scanning patients:  14%|█▍        | 47/337 [09:13<1:41:55, 21.09s/it]
+[48/337] START: sub-hupHUP088
+  OK — 55 graphs created
+Scanning patients:  14%|█▍        | 48/337 [09:30<1:35:09, 19.75s/it]
+[49/337] START: sub-hupHUP089
+  OK — 46 graphs created
+Scanning patients:  15%|█▍        | 49/337 [09:50<1:35:18, 19.86s/it]
+[50/337] START: sub-hupHUP094
+  OK — 37 graphs created
+Scanning patients:  15%|█▍        | 50/337 [10:06<1:28:37, 18.53s/it]
+[51/337] START: sub-hupHUP097
+  OK — 116 graphs created
+Scanning patients:  15%|█▌        | 51/337 [10:56<2:14:26, 28.21s/it]
+[52/337] START: sub-hupHUP105
+  OK — 29 graphs created
+Scanning patients:  15%|█▌        | 52/337 [11:05<1:46:03, 22.33s/it]
+[53/337] START: sub-hupHUP106
+  OK — 39 graphs created
+Scanning patients:  16%|█▌        | 53/337 [11:23<1:39:36, 21.05s/it]
+[54/337] START: sub-hupHUP107
+  OK — 58 graphs created
+Scanning patients:  16%|█▌        | 54/337 [11:50<1:46:56, 22.67s/it]
+[55/337] START: sub-hupHUP111
+  OK — 57 graphs created
+Scanning patients:  16%|█▋        | 55/337 [12:14<1:48:51, 23.16s/it]
+[56/337] START: sub-hupHUP112
+  SKIP — no valid graphs (no EDF or bad data)
+
+[57/337] START: sub-hupHUP114
+  OK — 41 graphs created
+Scanning patients:  17%|█▋        | 57/337 [12:33<1:18:37, 16.85s/it]
+[58/337] START: sub-hupHUP116
+  OK — 55 graphs created
+Scanning patients:  17%|█▋        | 58/337 [12:46<1:14:01, 15.92s/it]
+[59/337] START: sub-hupHUP117
+  OK — 38 graphs created
+Scanning patients:  18%|█▊        | 59/337 [12:57<1:07:21, 14.54s/it]
+[60/337] START: sub-hupHUP123
+  OK — 48 graphs created
+Scanning patients:  18%|█▊        | 60/337 [13:19<1:17:06, 16.70s/it]
+[61/337] START: sub-hupHUP126
+  OK — 37 graphs created
+Scanning patients:  18%|█▊        | 61/337 [13:37<1:18:52, 17.15s/it]
+[62/337] START: sub-hupHUP130
+  OK — 45 graphs created
+Scanning patients:  18%|█▊        | 62/337 [13:59<1:24:43, 18.48s/it]
+[63/337] START: sub-hupHUP132
+  OK — 183 graphs created
+Scanning patients:  19%|█▊        | 63/337 [16:13<3:56:47, 51.85s/it]
+[64/337] START: sub-hupHUP133
+  OK — 53 graphs created
+Scanning patients:  19%|█▉        | 64/337 [16:34<3:15:38, 43.00s/it]
+[65/337] START: sub-hupHUP134
+  OK — 23 graphs created
+Scanning patients:  19%|█▉        | 65/337 [16:45<2:31:11, 33.35s/it]
+[66/337] START: sub-hupHUP135
+  OK — 38 graphs created
+Scanning patients:  20%|█▉        | 66/337 [17:02<2:08:48, 28.52s/it]
+[67/337] START: sub-hupHUP138
+  OK — 55 graphs created
+Scanning patients:  20%|█▉        | 67/337 [17:29<2:06:37, 28.14s/it]
+[68/337] START: sub-hupHUP139
+  OK — 35 graphs created
+Scanning patients:  20%|██        | 68/337 [17:45<1:50:02, 24.55s/it]
+[69/337] START: sub-hupHUP140
+  OK — 63 graphs created
+Scanning patients:  20%|██        | 69/337 [18:13<1:54:39, 25.67s/it]
+[70/337] START: sub-hupHUP141
+  OK — 44 graphs created
+Scanning patients:  21%|██        | 70/337 [18:32<1:44:56, 23.58s/it]
+[71/337] START: sub-hupHUP142
+  OK — 38 graphs created
+Scanning patients:  21%|██        | 71/337 [18:49<1:36:17, 21.72s/it]
+[72/337] START: sub-hupHUP144
+  OK — 52 graphs created
+Scanning patients:  21%|██▏       | 72/337 [19:13<1:38:26, 22.29s/it]
+[73/337] START: sub-hupHUP146
+  OK — 37 graphs created
+Scanning patients:  22%|██▏       | 73/337 [19:30<1:31:40, 20.83s/it]
+[74/337] START: sub-hupHUP148
+  OK — 48 graphs created
+Scanning patients:  22%|██▏       | 74/337 [19:52<1:32:17, 21.06s/it]
+[75/337] START: sub-hupHUP150
+  OK — 46 graphs created
+Scanning patients:  22%|██▏       | 75/337 [20:11<1:29:47, 20.56s/it]
+[76/337] START: sub-hupHUP151
+  OK — 52 graphs created
+Scanning patients:  23%|██▎       | 76/337 [20:37<1:36:31, 22.19s/it]
+[77/337] START: sub-hupHUP157
+  OK — 48 graphs created
+Scanning patients:  23%|██▎       | 77/337 [21:04<1:41:47, 23.49s/it]
+[78/337] START: sub-hupHUP158
+  OK — 9 graphs created
+Scanning patients:  23%|██▎       | 78/337 [21:09<1:17:31, 17.96s/it]
+[79/337] START: sub-hupHUP160
+  OK — 35 graphs created
+Scanning patients:  23%|██▎       | 79/337 [21:25<1:14:55, 17.42s/it]
+[80/337] START: sub-hupHUP162
+  OK — 47 graphs created
+Scanning patients:  24%|██▎       | 80/337 [21:52<1:27:17, 20.38s/it]
+[81/337] START: sub-hupHUP163
+  OK — 38 graphs created
+Scanning patients:  24%|██▍       | 81/337 [22:13<1:27:44, 20.56s/it]
+[82/337] START: sub-hupHUP164
+  OK — 37 graphs created
+Scanning patients:  24%|██▍       | 82/337 [22:34<1:27:32, 20.60s/it]
+[83/337] START: sub-hupHUP165
+  OK — 16 graphs created
+Scanning patients:  25%|██▍       | 83/337 [22:44<1:13:32, 17.37s/it]
+[84/337] START: sub-hupHUP166
+  OK — 33 graphs created
+Scanning patients:  25%|██▍       | 84/337 [23:03<1:14:59, 17.78s/it]
+[85/337] START: sub-hupHUP171
+  OK — 39 graphs created
+Scanning patients:  25%|██▌       | 85/337 [23:22<1:16:42, 18.26s/it]
+[86/337] START: sub-hupHUP172
+  OK — 49 graphs created
+Scanning patients:  26%|██▌       | 86/337 [23:45<1:21:48, 19.55s/it]
+[87/337] START: sub-hupHUP173
+  OK — 47 graphs created
+Scanning patients:  26%|██▌       | 87/337 [24:05<1:22:59, 19.92s/it]
+[88/337] START: sub-hupHUP177
+  OK — 37 graphs created
+Scanning patients:  26%|██▌       | 88/337 [24:25<1:22:44, 19.94s/it]
+[89/337] START: sub-hupHUP179
+  OK — 28 graphs created
+Scanning patients:  26%|██▋       | 89/337 [24:40<1:15:10, 18.19s/it]
+[90/337] START: sub-hupHUP180
+  OK — 46 graphs created
+Scanning patients:  27%|██▋       | 90/337 [25:00<1:17:50, 18.91s/it]
+[91/337] START: sub-hupHUP181
+  OK — 67 graphs created
+Scanning patients:  27%|██▋       | 91/337 [25:32<1:32:56, 22.67s/it]
+[92/337] START: sub-hupHUP185
+  OK — 50 graphs created
+Scanning patients:  27%|██▋       | 92/337 [25:54<1:32:16, 22.60s/it]
+[93/337] START: sub-hupHUP187
+  OK — 48 graphs created
+Scanning patients:  28%|██▊       | 93/337 [26:14<1:28:55, 21.87s/it]
+[94/337] START: sub-hupHUP188
+  OK — 41 graphs created
+Scanning patients:  28%|██▊       | 94/337 [26:35<1:27:22, 21.57s/it]
+[95/337] START: sub-hupHUP190
+  OK — 39 graphs created
+Scanning patients:  28%|██▊       | 95/337 [26:56<1:26:02, 21.33s/it]
+[96/337] START: sub-openieegDetroit001
+  OK — 9 graphs created
+Scanning patients:  28%|██▊       | 96/337 [27:00<1:04:26, 16.05s/it]
+[97/337] START: sub-openieegDetroit002
+  OK — 9 graphs created
+Scanning patients:  29%|██▉       | 97/337 [27:03<49:31, 12.38s/it]  
+[98/337] START: sub-openieegDetroit003
+  OK — 10 graphs created
+Scanning patients:  29%|██▉       | 98/337 [27:08<39:29,  9.91s/it]
+[99/337] START: sub-openieegDetroit004
+  OK — 9 graphs created
+Scanning patients:  29%|██▉       | 99/337 [27:11<31:35,  7.97s/it]
+[100/337] START: sub-openieegDetroit005
+  OK — 9 graphs created
+Scanning patients:  30%|██▉       | 100/337 [27:15<26:32,  6.72s/it]
+[101/337] START: sub-openieegDetroit006
+  OK — 9 graphs created
+Scanning patients:  30%|██▉       | 101/337 [27:18<22:45,  5.79s/it]
+[102/337] START: sub-openieegDetroit007
+  OK — 18 graphs created
+Scanning patients:  30%|███       | 102/337 [27:26<24:34,  6.27s/it]
+[103/337] START: sub-openieegDetroit008
+  OK — 9 graphs created
+Scanning patients:  31%|███       | 103/337 [27:30<21:36,  5.54s/it]
+[104/337] START: sub-openieegDetroit009
+  OK — 10 graphs created
+Scanning patients:  31%|███       | 104/337 [27:34<19:56,  5.13s/it]
+[105/337] START: sub-openieegDetroit010
+  OK — 9 graphs created
+Scanning patients:  31%|███       | 105/337 [27:38<18:17,  4.73s/it]
+[106/337] START: sub-openieegDetroit011
+  OK — 10 graphs created
+Scanning patients:  31%|███▏      | 106/337 [27:42<17:29,  4.54s/it]
+[107/337] START: sub-openieegDetroit012
+  OK — 9 graphs created
+Scanning patients:  32%|███▏      | 107/337 [27:45<16:30,  4.31s/it]
+[108/337] START: sub-openieegDetroit013
+  OK — 9 graphs created
+Scanning patients:  32%|███▏      | 108/337 [27:49<15:48,  4.14s/it]
+[109/337] START: sub-openieegDetroit014
+  OK — 19 graphs created
+Scanning patients:  32%|███▏      | 109/337 [27:57<19:39,  5.17s/it]
+[110/337] START: sub-openieegDetroit015
+  OK — 10 graphs created
+Scanning patients:  33%|███▎      | 110/337 [28:01<18:26,  4.87s/it]
+[111/337] START: sub-openieegDetroit016
+  OK — 9 graphs created
+Scanning patients:  33%|███▎      | 111/337 [28:05<17:03,  4.53s/it]
+[112/337] START: sub-openieegDetroit017
+  OK — 9 graphs created
+Scanning patients:  33%|███▎      | 112/337 [28:09<16:16,  4.34s/it]
+[113/337] START: sub-openieegDetroit018
+  OK — 9 graphs created
+Scanning patients:  34%|███▎      | 113/337 [28:12<15:26,  4.14s/it]
+[114/337] START: sub-openieegDetroit019
+  OK — 9 graphs created
+Scanning patients:  34%|███▍      | 114/337 [28:16<14:50,  3.99s/it]
+[115/337] START: sub-openieegDetroit020
+  OK — 15 graphs created
+Scanning patients:  34%|███▍      | 115/337 [28:22<17:17,  4.67s/it]
+[116/337] START: sub-openieegDetroit021
+  OK — 9 graphs created
+Scanning patients:  34%|███▍      | 116/337 [28:26<16:08,  4.38s/it]
+[117/337] START: sub-openieegDetroit022
+  OK — 17 graphs created
+Scanning patients:  35%|███▍      | 117/337 [28:32<17:30,  4.77s/it]
+[118/337] START: sub-openieegDetroit023
+  OK — 10 graphs created
+Scanning patients:  35%|███▌      | 118/337 [28:35<15:56,  4.37s/it]
+[119/337] START: sub-openieegDetroit024
+  OK — 9 graphs created
+Scanning patients:  35%|███▌      | 119/337 [28:39<15:05,  4.16s/it]
+[120/337] START: sub-openieegDetroit025
+  OK — 9 graphs created
+Scanning patients:  36%|███▌      | 120/337 [28:42<14:38,  4.05s/it]
+[121/337] START: sub-openieegDetroit026
+  OK — 9 graphs created
+Scanning patients:  36%|███▌      | 121/337 [28:46<14:12,  3.95s/it]
+[122/337] START: sub-openieegDetroit027
+  OK — 10 graphs created
+Scanning patients:  36%|███▌      | 122/337 [28:50<14:15,  3.98s/it]
+[123/337] START: sub-openieegDetroit028
+  OK — 11 graphs created
+Scanning patients:  36%|███▋      | 123/337 [28:55<14:40,  4.12s/it]
+[124/337] START: sub-openieegDetroit029
+  OK — 9 graphs created
+Scanning patients:  37%|███▋      | 124/337 [28:58<14:06,  3.97s/it]
+[125/337] START: sub-openieegDetroit030
+  OK — 10 graphs created
+Scanning patients:  37%|███▋      | 125/337 [29:02<14:09,  4.01s/it]
+[126/337] START: sub-openieegDetroit031
+  OK — 9 graphs created
+Scanning patients:  37%|███▋      | 126/337 [29:06<13:53,  3.95s/it]
+[127/337] START: sub-openieegDetroit032
+  OK — 9 graphs created
+Scanning patients:  38%|███▊      | 127/337 [29:10<13:26,  3.84s/it]
+[128/337] START: sub-openieegDetroit033
+  OK — 9 graphs created
+Scanning patients:  38%|███▊      | 128/337 [29:14<13:23,  3.84s/it]
+[129/337] START: sub-openieegDetroit034
+  OK — 9 graphs created
+Scanning patients:  38%|███▊      | 129/337 [29:17<13:21,  3.85s/it]
+[130/337] START: sub-openieegDetroit035
+  OK — 11 graphs created
+Scanning patients:  39%|███▊      | 130/337 [29:22<13:56,  4.04s/it]
+[131/337] START: sub-openieegDetroit036
+  OK — 18 graphs created
+Scanning patients:  39%|███▉      | 131/337 [29:29<17:03,  4.97s/it]
+[132/337] START: sub-openieegDetroit037
+  OK — 9 graphs created
+Scanning patients:  39%|███▉      | 132/337 [29:33<15:39,  4.58s/it]
+[133/337] START: sub-openieegDetroit038
+  OK — 19 graphs created
+Scanning patients:  39%|███▉      | 133/337 [29:40<18:32,  5.45s/it]
+[134/337] START: sub-openieegDetroit039
+  OK — 9 graphs created
+Scanning patients:  40%|███▉      | 134/337 [29:44<16:26,  4.86s/it]
+[135/337] START: sub-openieegDetroit040
+  OK — 9 graphs created
+Scanning patients:  40%|████      | 135/337 [29:47<15:11,  4.51s/it]
+[136/337] START: sub-openieegDetroit041
+  OK — 9 graphs created
+Scanning patients:  40%|████      | 136/337 [29:51<14:04,  4.20s/it]
+[137/337] START: sub-openieegDetroit042
+  OK — 16 graphs created
+Scanning patients:  41%|████      | 137/337 [29:57<16:12,  4.86s/it]
+[138/337] START: sub-openieegDetroit043
+  OK — 10 graphs created
+Scanning patients:  41%|████      | 138/337 [30:01<15:24,  4.65s/it]
+[139/337] START: sub-openieegDetroit044
+  OK — 9 graphs created
+Scanning patients:  41%|████      | 139/337 [30:05<14:19,  4.34s/it]
+[140/337] START: sub-openieegDetroit045
+  OK — 9 graphs created
+Scanning patients:  42%|████▏     | 140/337 [30:09<13:38,  4.16s/it]
+[141/337] START: sub-openieegDetroit046
+  OK — 43 graphs created
+Scanning patients:  42%|████▏     | 141/337 [30:26<26:29,  8.11s/it]
+[142/337] START: sub-openieegDetroit047
+  OK — 9 graphs created
+Scanning patients:  42%|████▏     | 142/337 [30:30<22:04,  6.79s/it]
+[143/337] START: sub-openieegDetroit048
+  OK — 26 graphs created
+Scanning patients:  42%|████▏     | 143/337 [30:40<25:03,  7.75s/it]
+[144/337] START: sub-openieegDetroit049
+  OK — 9 graphs created
+Scanning patients:  43%|████▎     | 144/337 [30:43<20:50,  6.48s/it]
+[145/337] START: sub-openieegDetroit050
+  OK — 21 graphs created
+Scanning patients:  43%|████▎     | 145/337 [30:52<22:40,  7.08s/it]
+[146/337] START: sub-openieegDetroit051
+  OK — 12 graphs created
+Scanning patients:  43%|████▎     | 146/337 [30:57<20:31,  6.45s/it]
+[147/337] START: sub-openieegDetroit052
+  OK — 11 graphs created
+Scanning patients:  44%|████▎     | 147/337 [31:01<18:27,  5.83s/it]
+[148/337] START: sub-openieegDetroit053
+  OK — 16 graphs created
+Scanning patients:  44%|████▍     | 148/337 [31:08<18:54,  6.00s/it]
+[149/337] START: sub-openieegDetroit054
+  OK — 9 graphs created
+Scanning patients:  44%|████▍     | 149/337 [31:11<16:43,  5.34s/it]
+[150/337] START: sub-openieegDetroit055
+  OK — 10 graphs created
+Scanning patients:  45%|████▍     | 150/337 [31:15<15:24,  4.95s/it]
+[151/337] START: sub-openieegDetroit056
+  OK — 10 graphs created
+Scanning patients:  45%|████▍     | 151/337 [31:19<14:29,  4.67s/it]
+[152/337] START: sub-openieegDetroit057
+  OK — 9 graphs created
+Scanning patients:  45%|████▌     | 152/337 [31:23<13:33,  4.40s/it]
+[153/337] START: sub-openieegDetroit058
+  OK — 11 graphs created
+Scanning patients:  45%|████▌     | 153/337 [31:28<13:29,  4.40s/it]
+[154/337] START: sub-openieegDetroit059
+  OK — 9 graphs created
+Scanning patients:  46%|████▌     | 154/337 [31:31<12:45,  4.18s/it]
+[155/337] START: sub-openieegDetroit060
+  OK — 10 graphs created
+Scanning patients:  46%|████▌     | 155/337 [31:35<12:41,  4.19s/it]
+[156/337] START: sub-openieegDetroit061
+  OK — 9 graphs created
+Scanning patients:  46%|████▋     | 156/337 [31:39<12:08,  4.02s/it]
+[157/337] START: sub-openieegDetroit062
+  OK — 9 graphs created
+Scanning patients:  47%|████▋     | 157/337 [31:43<11:52,  3.96s/it]
+[158/337] START: sub-openieegDetroit063
+  OK — 9 graphs created
+Scanning patients:  47%|████▋     | 158/337 [31:47<11:41,  3.92s/it]
+[159/337] START: sub-openieegDetroit064
+  OK — 9 graphs created
+Scanning patients:  47%|████▋     | 159/337 [31:51<11:30,  3.88s/it]
+[160/337] START: sub-openieegDetroit065
+  OK — 9 graphs created
+Scanning patients:  47%|████▋     | 160/337 [31:54<11:12,  3.80s/it]
+[161/337] START: sub-openieegDetroit066
+  OK — 10 graphs created
+Scanning patients:  48%|████▊     | 161/337 [31:58<11:26,  3.90s/it]
+[162/337] START: sub-openieegDetroit067
+  OK — 9 graphs created
+Scanning patients:  48%|████▊     | 162/337 [32:02<11:15,  3.86s/it]
+[163/337] START: sub-openieegDetroit068
+  OK — 9 graphs created
+Scanning patients:  48%|████▊     | 163/337 [32:06<11:06,  3.83s/it]
+[164/337] START: sub-openieegDetroit069
+  OK — 9 graphs created
+Scanning patients:  49%|████▊     | 164/337 [32:09<10:48,  3.75s/it]
+[165/337] START: sub-openieegDetroit070
+  OK — 9 graphs created
+Scanning patients:  49%|████▉     | 165/337 [32:13<10:43,  3.74s/it]
+[166/337] START: sub-openieegDetroit071
+  OK — 9 graphs created
+Scanning patients:  49%|████▉     | 166/337 [32:17<10:39,  3.74s/it]
+[167/337] START: sub-openieegDetroit072
+  OK — 10 graphs created
+Scanning patients:  50%|████▉     | 167/337 [32:21<11:04,  3.91s/it]
+[168/337] START: sub-openieegDetroit073
+  OK — 9 graphs created
+Scanning patients:  50%|████▉     | 168/337 [32:25<10:35,  3.76s/it]
+[169/337] START: sub-openieegDetroit074
+  OK — 9 graphs created
+Scanning patients:  50%|█████     | 169/337 [32:28<10:32,  3.76s/it]
+[170/337] START: sub-openieegDetroit075
+  OK — 10 graphs created
+Scanning patients:  50%|█████     | 170/337 [32:30<09:01,  3.24s/it]
+[171/337] START: sub-openieegDetroit076
+  OK — 12 graphs created
+Scanning patients:  51%|█████     | 171/337 [32:35<10:30,  3.80s/it]
+[172/337] START: sub-openieegDetroit077
+  OK — 9 graphs created
+Scanning patients:  51%|█████     | 172/337 [32:39<10:12,  3.71s/it]
+[173/337] START: sub-openieegDetroit078
+  OK — 10 graphs created
+Scanning patients:  51%|█████▏    | 173/337 [32:43<10:23,  3.80s/it]
+[174/337] START: sub-openieegDetroit079
+  OK — 9 graphs created
+Scanning patients:  52%|█████▏    | 174/337 [32:47<10:17,  3.79s/it]
+[175/337] START: sub-openieegDetroit080
+  OK — 20 graphs created
+Scanning patients:  52%|█████▏    | 175/337 [32:55<13:40,  5.07s/it]
+[176/337] START: sub-openieegDetroit081
+  OK — 10 graphs created
+Scanning patients:  52%|█████▏    | 176/337 [32:59<12:48,  4.78s/it]
+[177/337] START: sub-openieegDetroit082
+  OK — 10 graphs created
+Scanning patients:  53%|█████▎    | 177/337 [33:03<12:12,  4.58s/it]
+[178/337] START: sub-openieegDetroit083
+  OK — 10 graphs created
+Scanning patients:  53%|█████▎    | 178/337 [33:07<11:50,  4.47s/it]
+[179/337] START: sub-openieegDetroit084
+  OK — 9 graphs created
+Scanning patients:  53%|█████▎    | 179/337 [33:11<11:13,  4.26s/it]
+[180/337] START: sub-openieegDetroit085
+  OK — 13 graphs created
+Scanning patients:  53%|█████▎    | 180/337 [33:16<11:54,  4.55s/it]
+[181/337] START: sub-openieegDetroit086
+  OK — 10 graphs created
+Scanning patients:  54%|█████▎    | 181/337 [33:20<11:31,  4.43s/it]
+[182/337] START: sub-openieegDetroit087
+  OK — 9 graphs created
+Scanning patients:  54%|█████▍    | 182/337 [33:24<11:04,  4.29s/it]
+[183/337] START: sub-openieegDetroit088
+  OK — 12 graphs created
+Scanning patients:  54%|█████▍    | 183/337 [33:29<11:33,  4.50s/it]
+[184/337] START: sub-openieegDetroit089
+  OK — 9 graphs created
+Scanning patients:  55%|█████▍    | 184/337 [33:33<10:53,  4.27s/it]
+[185/337] START: sub-openieegDetroit090
+  OK — 9 graphs created
+Scanning patients:  55%|█████▍    | 185/337 [33:37<10:25,  4.11s/it]
+[186/337] START: sub-openieegDetroit091
+  OK — 9 graphs created
+Scanning patients:  55%|█████▌    | 186/337 [33:41<10:04,  4.00s/it]
+[187/337] START: sub-openieegDetroit092
+  OK — 9 graphs created
+Scanning patients:  55%|█████▌    | 187/337 [33:44<09:51,  3.95s/it]
+[188/337] START: sub-openieegDetroit093
+  OK — 10 graphs created
+Scanning patients:  56%|█████▌    | 188/337 [33:48<09:46,  3.94s/it]
+[189/337] START: sub-openieegDetroit094
+  OK — 9 graphs created
+Scanning patients:  56%|█████▌    | 189/337 [33:52<09:37,  3.90s/it]
+[190/337] START: sub-openieegDetroit095
+  OK — 9 graphs created
+Scanning patients:  56%|█████▋    | 190/337 [33:56<09:27,  3.86s/it]
+[191/337] START: sub-openieegDetroit096
+  OK — 9 graphs created
+Scanning patients:  57%|█████▋    | 191/337 [34:00<09:21,  3.85s/it]
+[192/337] START: sub-openieegDetroit097
+  OK — 9 graphs created
+Scanning patients:  57%|█████▋    | 192/337 [34:03<09:15,  3.83s/it]
+[193/337] START: sub-openieegDetroit098
+  OK — 10 graphs created
+Scanning patients:  57%|█████▋    | 193/337 [34:07<09:20,  3.89s/it]
+[194/337] START: sub-openieegDetroit099
+  OK — 9 graphs created
+Scanning patients:  58%|█████▊    | 194/337 [34:11<09:08,  3.84s/it]
+[195/337] START: sub-openieegDetroit100
+  OK — 9 graphs created
+Scanning patients:  58%|█████▊    | 195/337 [34:15<08:56,  3.78s/it]
+[196/337] START: sub-openieegDetroit101
+  OK — 9 graphs created
+Scanning patients:  58%|█████▊    | 196/337 [34:19<08:47,  3.74s/it]
+[197/337] START: sub-openieegDetroit102
+  OK — 9 graphs created
+Scanning patients:  58%|█████▊    | 197/337 [34:22<08:39,  3.71s/it]
+[198/337] START: sub-openieegDetroit103
+  OK — 9 graphs created
+Scanning patients:  59%|█████▉    | 198/337 [34:26<08:38,  3.73s/it]
+[199/337] START: sub-openieegDetroit104
+  OK — 9 graphs created
+Scanning patients:  59%|█████▉    | 199/337 [34:30<08:30,  3.70s/it]
+[200/337] START: sub-openieegDetroit105
+  OK — 9 graphs created
+Scanning patients:  59%|█████▉    | 200/337 [34:33<08:29,  3.72s/it]
+[201/337] START: sub-openieegDetroit106
+  OK — 9 graphs created
+Scanning patients:  60%|█████▉    | 201/337 [34:37<08:28,  3.74s/it]
+[202/337] START: sub-openieegDetroit107
+  OK — 9 graphs created
+Scanning patients:  60%|█████▉    | 202/337 [34:41<08:29,  3.77s/it]
+[203/337] START: sub-openieegDetroit108
+  OK — 10 graphs created
+Scanning patients:  60%|██████    | 203/337 [34:45<08:47,  3.93s/it]
+[204/337] START: sub-openieegDetroit109
+  OK — 9 graphs created
+Scanning patients:  61%|██████    | 204/337 [34:48<08:06,  3.66s/it]
+[205/337] START: sub-openieegDetroit110
+  OK — 10 graphs created
+Scanning patients:  61%|██████    | 205/337 [34:52<08:23,  3.82s/it]
+[206/337] START: sub-openieegDetroit111
+  OK — 9 graphs created
+Scanning patients:  61%|██████    | 206/337 [34:56<08:16,  3.79s/it]
+[207/337] START: sub-openieegDetroit112
+  OK — 9 graphs created
+Scanning patients:  61%|██████▏   | 207/337 [35:00<08:07,  3.75s/it]
+[208/337] START: sub-openieegDetroit113
+  OK — 9 graphs created
+Scanning patients:  62%|██████▏   | 208/337 [35:04<08:02,  3.74s/it]
+[209/337] START: sub-openieegDetroit114
+  OK — 9 graphs created
+Scanning patients:  62%|██████▏   | 209/337 [35:07<07:54,  3.71s/it]
+[210/337] START: sub-openieegDetroit115
+  OK — 10 graphs created
+Scanning patients:  62%|██████▏   | 210/337 [35:11<08:04,  3.81s/it]
+[211/337] START: sub-openieegDetroit116
+  OK — 11 graphs created
+Scanning patients:  63%|██████▎   | 211/337 [35:16<08:25,  4.01s/it]
+[212/337] START: sub-openieegDetroit117
+  OK — 9 graphs created
+Scanning patients:  63%|██████▎   | 212/337 [35:20<08:14,  3.96s/it]
+[213/337] START: sub-openieegDetroit118
+  OK — 9 graphs created
+Scanning patients:  63%|██████▎   | 213/337 [35:23<08:02,  3.89s/it]
+[214/337] START: sub-openieegDetroit119
+  OK — 9 graphs created
+Scanning patients:  64%|██████▎   | 214/337 [35:27<07:53,  3.85s/it]
+[215/337] START: sub-openieegDetroit120
+  OK — 10 graphs created
+Scanning patients:  64%|██████▍   | 215/337 [35:31<08:05,  3.98s/it]
+[216/337] START: sub-openieegDetroit121
+  OK — 9 graphs created
+Scanning patients:  64%|██████▍   | 216/337 [35:35<07:53,  3.91s/it]
+[217/337] START: sub-openieegDetroit122
+  OK — 10 graphs created
+Scanning patients:  64%|██████▍   | 217/337 [35:39<07:58,  3.99s/it]
+[218/337] START: sub-openieegDetroit123
+  OK — 9 graphs created
+Scanning patients:  65%|██████▍   | 218/337 [35:43<07:43,  3.89s/it]
+[219/337] START: sub-openieegDetroit124
+  OK — 9 graphs created
+Scanning patients:  65%|██████▍   | 219/337 [35:47<07:39,  3.90s/it]
+[220/337] START: sub-openieegDetroit125
+  OK — 9 graphs created
+Scanning patients:  65%|██████▌   | 220/337 [35:51<07:32,  3.86s/it]
+[221/337] START: sub-openieegDetroit126
+  OK — 9 graphs created
+Scanning patients:  66%|██████▌   | 221/337 [35:54<07:26,  3.85s/it]
+[222/337] START: sub-openieegDetroit127
+  OK — 9 graphs created
+Scanning patients:  66%|██████▌   | 222/337 [35:58<07:19,  3.82s/it]
+[223/337] START: sub-openieegDetroit128
+  OK — 9 graphs created
+Scanning patients:  66%|██████▌   | 223/337 [36:02<07:14,  3.82s/it]
+[224/337] START: sub-openieegDetroit129
+  OK — 9 graphs created
+Scanning patients:  66%|██████▋   | 224/337 [36:06<07:16,  3.86s/it]
+[225/337] START: sub-openieegDetroit130
+  OK — 9 graphs created
+Scanning patients:  67%|██████▋   | 225/337 [36:10<07:10,  3.84s/it]
+[226/337] START: sub-openieegDetroit131
+  OK — 9 graphs created
+Scanning patients:  67%|██████▋   | 226/337 [36:14<07:04,  3.83s/it]
+[227/337] START: sub-openieegDetroit132
+  OK — 9 graphs created
+Scanning patients:  67%|██████▋   | 227/337 [36:17<06:57,  3.80s/it]
+[228/337] START: sub-openieegDetroit133
+  OK — 9 graphs created
+Scanning patients:  68%|██████▊   | 228/337 [36:21<06:50,  3.77s/it]
+[229/337] START: sub-openieegDetroit134
+  OK — 9 graphs created
+Scanning patients:  68%|██████▊   | 229/337 [36:25<06:40,  3.71s/it]
+[230/337] START: sub-openieegDetroit135
+  OK — 9 graphs created
+Scanning patients:  68%|██████▊   | 230/337 [36:28<06:36,  3.71s/it]
+[231/337] START: sub-openieegUCLA01
+  OK — 183 graphs created
+Scanning patients:  69%|██████▊   | 231/337 [37:28<36:28, 20.64s/it]
+[232/337] START: sub-openieegUCLA02
+  OK — 181 graphs created
+Scanning patients:  69%|██████▉   | 232/337 [39:13<1:20:15, 45.87s/it]
+[233/337] START: sub-openieegUCLA03
+  OK — 180 graphs created
+Scanning patients:  69%|██████▉   | 233/337 [41:06<1:54:10, 65.87s/it]
+[234/337] START: sub-openieegUCLA04
+  OK — 182 graphs created
+Scanning patients:  69%|██████▉   | 234/337 [42:40<2:07:54, 74.51s/it]
+[235/337] START: sub-openieegUCLA05
+  OK — 180 graphs created
+Scanning patients:  70%|██████▉   | 235/337 [44:38<2:28:25, 87.31s/it]
+[236/337] START: sub-openieegUCLA06
+  OK — 184 graphs created
+Scanning patients:  70%|███████   | 236/337 [46:34<2:41:51, 96.16s/it]
+[237/337] START: sub-openieegUCLA07
+  OK — 179 graphs created
+Scanning patients:  70%|███████   | 237/337 [48:32<2:50:57, 102.58s/it]
+[238/337] START: sub-openieegUCLA08
+  OK — 168 graphs created
+Scanning patients:  71%|███████   | 238/337 [50:32<2:57:54, 107.83s/it]
+[239/337] START: sub-openieegUCLA09
+  OK — 180 graphs created
+Scanning patients:  71%|███████   | 239/337 [52:12<2:52:22, 105.53s/it]
+[240/337] START: sub-openieegUCLA10
+  OK — 160 graphs created
+Scanning patients:  71%|███████   | 240/337 [54:12<2:57:39, 109.90s/it]
+[241/337] START: sub-openieegUCLA11
+  OK — 179 graphs created
+Scanning patients:  72%|███████▏  | 241/337 [55:57<2:53:12, 108.26s/it]
+[242/337] START: sub-openieegUCLA12
+  OK — 179 graphs created
+Scanning patients:  72%|███████▏  | 242/337 [57:32<2:45:15, 104.38s/it]
+[243/337] START: sub-openieegUCLA13
+  OK — 181 graphs created
+Scanning patients:  72%|███████▏  | 243/337 [59:17<2:43:45, 104.52s/it]
+[244/337] START: sub-openieegUCLA14
+  OK — 181 graphs created
+Scanning patients:  72%|███████▏  | 244/337 [1:01:05<2:43:37, 105.56s/it]
+[245/337] START: sub-openieegUCLA15
+  OK — 181 graphs created
+Scanning patients:  73%|███████▎  | 245/337 [1:02:47<2:40:23, 104.60s/it]
+[246/337] START: sub-openieegUCLA16
+  OK — 118 graphs created
+Scanning patients:  73%|███████▎  | 246/337 [1:03:54<2:21:19, 93.18s/it] 
+[247/337] START: sub-openieegUCLA17
+  OK — 181 graphs created
+Scanning patients:  73%|███████▎  | 247/337 [1:05:52<2:31:09, 100.77s/it]
+[248/337] START: sub-openieegUCLA18
+  OK — 174 graphs created
+Scanning patients:  74%|███████▎  | 248/337 [1:07:33<2:29:21, 100.69s/it]
+[249/337] START: sub-openieegUCLA19
+  OK — 163 graphs created
+Scanning patients:  74%|███████▍  | 249/337 [1:09:33<2:36:12, 106.51s/it]
+[250/337] START: sub-openieegUCLA20
+  OK — 157 graphs created
+Scanning patients:  74%|███████▍  | 250/337 [1:11:33<2:40:20, 110.58s/it]
+[251/337] START: sub-openieegUCLA21
+  OK — 175 graphs created
+Scanning patients:  74%|███████▍  | 251/337 [1:13:30<2:41:28, 112.66s/it]
+[252/337] START: sub-openieegUCLA22
+  OK — 220 graphs created
+Scanning patients:  75%|███████▍  | 252/337 [1:15:30<2:42:45, 114.89s/it]
+[253/337] START: sub-openieegUCLA23
+  OK — 186 graphs created
+Scanning patients:  75%|███████▌  | 253/337 [1:17:19<2:38:08, 112.96s/it]
+[254/337] START: sub-openieegUCLA24
+  OK — 169 graphs created
+Scanning patients:  75%|███████▌  | 254/337 [1:19:19<2:39:13, 115.10s/it]
+[255/337] START: sub-openieegUCLA25
+  OK — 177 graphs created
+Scanning patients:  76%|███████▌  | 255/337 [1:21:19<2:39:20, 116.59s/it]
+[256/337] START: sub-openieegUCLA26
+  OK — 156 graphs created
+Scanning patients:  76%|███████▌  | 256/337 [1:23:19<2:38:48, 117.64s/it]
+[257/337] START: sub-openieegUCLA27
+  OK — 184 graphs created
+Scanning patients:  76%|███████▋  | 257/337 [1:25:19<2:37:49, 118.37s/it]
+[258/337] START: sub-openieegUCLA28
+  OK — 177 graphs created
+Scanning patients:  77%|███████▋  | 258/337 [1:27:19<2:36:31, 118.89s/it]
+[259/337] START: sub-openieegUCLA29
+  OK — 177 graphs created
+Scanning patients:  77%|███████▋  | 259/337 [1:29:12<2:31:58, 116.91s/it]
+[260/337] START: sub-openieegUCLA30
+  OK — 189 graphs created
+Scanning patients:  77%|███████▋  | 260/337 [1:31:07<2:29:34, 116.55s/it]
+[261/337] START: sub-openieegUCLA31
+  OK — 184 graphs created
+Scanning patients:  77%|███████▋  | 261/337 [1:32:16<2:09:27, 102.21s/it]
+[262/337] START: sub-openieegUCLA32
+  OK — 167 graphs created
+Scanning patients:  78%|███████▊  | 262/337 [1:33:46<2:03:11, 98.55s/it] 
+[263/337] START: sub-openieegUCLA33
+  OK — 100 graphs created
+Scanning patients:  78%|███████▊  | 263/337 [1:35:46<2:09:30, 105.01s/it]
+[264/337] START: sub-openieegUCLA34
+  OK — 146 graphs created
+Scanning patients:  78%|███████▊  | 264/337 [1:37:46<2:13:15, 109.53s/it]
+[265/337] START: sub-openieegUCLA35
+  OK — 234 graphs created
+Scanning patients:  79%|███████▊  | 265/337 [1:39:36<2:11:29, 109.58s/it]
+[266/337] START: sub-openieegUCLA36
+  OK — 179 graphs created
+Scanning patients:  79%|███████▉  | 266/337 [1:41:18<2:06:50, 107.19s/it]
+[267/337] START: sub-openieegUCLA37
+  OK — 170 graphs created
+Scanning patients:  79%|███████▉  | 267/337 [1:42:53<2:00:57, 103.68s/it]
+[268/337] START: sub-openieegUCLA38
+  OK — 180 graphs created
+Scanning patients:  80%|███████▉  | 268/337 [1:44:50<2:03:51, 107.71s/it]
+[269/337] START: sub-openieegUCLA39
+  OK — 181 graphs created
+Scanning patients:  80%|███████▉  | 269/337 [1:46:50<2:06:16, 111.42s/it]
+[270/337] START: sub-openieegUCLA40
+  OK — 147 graphs created
+Scanning patients:  80%|████████  | 270/337 [1:47:34<1:41:38, 91.03s/it] 
+[271/337] START: sub-openieegUCLA41
+  OK — 167 graphs created
+Scanning patients:  80%|████████  | 271/337 [1:49:34<1:49:43, 99.75s/it]
+[272/337] START: sub-openieegUCLA42
+  OK — 192 graphs created
+Scanning patients:  81%|████████  | 272/337 [1:50:25<1:32:07, 85.04s/it]
+[273/337] START: sub-openieegUCLA43
+  OK — 184 graphs created
+Scanning patients:  81%|████████  | 273/337 [1:51:33<1:25:14, 79.92s/it]
+[274/337] START: sub-openieegUCLA44
+  OK — 153 graphs created
+Scanning patients:  81%|████████▏ | 274/337 [1:53:33<1:36:34, 91.97s/it]
+[275/337] START: sub-openieegUCLA45
+  OK — 208 graphs created
+Scanning patients:  82%|████████▏ | 275/337 [1:55:22<1:40:29, 97.25s/it]
+[276/337] START: sub-openieegUCLA46
+  OK — 179 graphs created
+Scanning patients:  82%|████████▏ | 276/337 [1:57:05<1:40:25, 98.78s/it]
+[277/337] START: sub-openieegUCLA47
+  OK — 147 graphs created
+Scanning patients:  82%|████████▏ | 277/337 [1:59:05<1:45:10, 105.17s/it]
+[278/337] START: sub-openieegUCLA48
+  OK — 204 graphs created
+Scanning patients:  82%|████████▏ | 278/337 [2:00:55<1:44:50, 106.62s/it]
+[279/337] START: sub-openieegUCLA49
+  OK — 192 graphs created
+Scanning patients:  83%|████████▎ | 279/337 [2:02:43<1:43:33, 107.13s/it]
+[280/337] START: sub-openieegUCLA50
+  OK — 172 graphs created
+Scanning patients:  83%|████████▎ | 280/337 [2:04:18<1:38:26, 103.63s/it]
+[281/337] START: sub-sourcesinkNIH1
+  OK — 18 graphs created
+Scanning patients:  83%|████████▎ | 281/337 [2:04:29<1:10:36, 75.65s/it] 
+[282/337] START: sub-sourcesinkNIH10
+  OK — 19 graphs created
+Scanning patients:  84%|████████▎ | 282/337 [2:04:37<50:40, 55.29s/it]  
+[283/337] START: sub-sourcesinkNIH11
+  OK — 19 graphs created
+Scanning patients:  84%|████████▍ | 283/337 [2:04:46<37:21, 41.51s/it]
+[284/337] START: sub-sourcesinkNIH2
+  OK — 18 graphs created
+Scanning patients:  84%|████████▍ | 284/337 [2:04:53<27:35, 31.24s/it]
+[285/337] START: sub-sourcesinkNIH3
+  OK — 18 graphs created
+Scanning patients:  85%|████████▍ | 285/337 [2:05:01<20:55, 24.15s/it]
+[286/337] START: sub-sourcesinkNIH4
+  OK — 18 graphs created
+Scanning patients:  85%|████████▍ | 286/337 [2:05:08<16:15, 19.13s/it]
+[287/337] START: sub-sourcesinkNIH5
+  OK — 18 graphs created
+Scanning patients:  85%|████████▌ | 287/337 [2:05:16<13:00, 15.62s/it]
+[288/337] START: sub-sourcesinkNIH6
+  OK — 18 graphs created
+Scanning patients:  85%|████████▌ | 288/337 [2:05:25<11:19, 13.86s/it]
+[289/337] START: sub-sourcesinkNIH7
+  OK — 19 graphs created
+Scanning patients:  86%|████████▌ | 289/337 [2:05:35<10:09, 12.69s/it]
+[290/337] START: sub-sourcesinkNIH8
+  OK — 18 graphs created
+Scanning patients:  86%|████████▌ | 290/337 [2:05:46<09:21, 11.94s/it]
+[291/337] START: sub-sourcesinkNIH9
+  OK — 18 graphs created
+Scanning patients:  86%|████████▋ | 291/337 [2:05:53<08:07, 10.59s/it]
+[292/337] START: sub-sourcesinkPY18N002
+  OK — 20 graphs created
+Scanning patients:  87%|████████▋ | 292/337 [2:06:02<07:32, 10.06s/it]
+[293/337] START: sub-sourcesinkPY18N007
+  OK — 34 graphs created
+Scanning patients:  87%|████████▋ | 293/337 [2:06:15<08:10, 11.15s/it]
+[294/337] START: sub-sourcesinkPY18N013
+  OK — 30 graphs created
+Scanning patients:  87%|████████▋ | 294/337 [2:06:28<08:16, 11.55s/it]
+[295/337] START: sub-sourcesinkPY18N015
+  OK — 28 graphs created
+Scanning patients:  88%|████████▊ | 295/337 [2:06:39<07:59, 11.43s/it]
+[296/337] START: sub-sourcesinkPY19N012
+  OK — 34 graphs created
+Scanning patients:  88%|████████▊ | 296/337 [2:06:53<08:13, 12.05s/it]
+[297/337] START: sub-sourcesinkPY19N015
+  OK — 30 graphs created
+Scanning patients:  88%|████████▊ | 297/337 [2:07:06<08:13, 12.33s/it]
+[298/337] START: sub-sourcesinkPY19N023
+  OK — 31 graphs created
+Scanning patients:  88%|████████▊ | 298/337 [2:07:18<08:03, 12.39s/it]
+[299/337] START: sub-sourcesinkPY19N026
+  OK — 28 graphs created
+Scanning patients:  89%|████████▊ | 299/337 [2:07:29<07:34, 11.96s/it]
+[300/337] START: sub-sourcesinkjh103
+  OK — 8 graphs created
+Scanning patients:  89%|████████▉ | 300/337 [2:07:33<05:48,  9.41s/it]
+[301/337] START: sub-sourcesinkjh105
+  OK — 7 graphs created
+Scanning patients:  89%|████████▉ | 301/337 [2:07:36<04:29,  7.48s/it]
+[302/337] START: sub-sourcesinkpt1
+  OK — 52 graphs created
+Scanning patients:  90%|████████▉ | 302/337 [2:07:56<06:38, 11.38s/it]
+[303/337] START: sub-sourcesinkpt2
+  OK — 56 graphs created
+Scanning patients:  90%|████████▉ | 303/337 [2:08:18<08:10, 14.44s/it]
+[304/337] START: sub-sourcesinkpt3
+  OK — 33 graphs created
+Scanning patients:  90%|█████████ | 304/337 [2:08:31<07:45, 14.11s/it]
+[305/337] START: sub-sourcesinkrns002
+  OK — 1 graphs created
+Scanning patients:  91%|█████████ | 305/337 [2:08:32<05:23, 10.12s/it]
+[306/337] START: sub-sourcesinkrns003
+  OK — 1 graphs created
+Scanning patients:  91%|█████████ | 306/337 [2:08:33<03:47,  7.34s/it]
+[307/337] START: sub-sourcesinkrns004
+  OK — 1 graphs created
+Scanning patients:  91%|█████████ | 307/337 [2:08:33<02:38,  5.28s/it]
+[308/337] START: sub-sourcesinkrns005
+  OK — 1 graphs created
+Scanning patients:  91%|█████████▏| 308/337 [2:08:34<01:53,  3.91s/it]
+[309/337] START: sub-sourcesinkrns006
+  OK — 1 graphs created
+Scanning patients:  92%|█████████▏| 309/337 [2:08:34<01:21,  2.91s/it]
+[310/337] START: sub-sourcesinkrns011
+  OK — 1 graphs created
+Scanning patients:  92%|█████████▏| 310/337 [2:08:35<01:01,  2.28s/it]
+[311/337] START: sub-sourcesinkrns013
+  OK — 1 graphs created
+Scanning patients:  92%|█████████▏| 311/337 [2:08:36<00:47,  1.81s/it]
+[312/337] START: sub-sourcesinkrns014
+  OK — 1 graphs created
+Scanning patients:  93%|█████████▎| 312/337 [2:08:36<00:33,  1.35s/it]
+[313/337] START: sub-sourcesinkrns015
+  OK — 1 graphs created
+Scanning patients:  93%|█████████▎| 313/337 [2:08:37<00:26,  1.12s/it]
+[314/337] START: sub-sourcesinkumf002
+  OK — 2 graphs created
+Scanning patients:  93%|█████████▎| 314/337 [2:08:38<00:25,  1.11s/it]
+[315/337] START: sub-sourcesinkumf003
+  OK — 2 graphs created
+Scanning patients:  93%|█████████▎| 315/337 [2:08:39<00:27,  1.27s/it]
+[316/337] START: sub-sourcesinkumf004
+  OK — 1 graphs created
+Scanning patients:  94%|█████████▍| 316/337 [2:08:40<00:22,  1.09s/it]
+[317/337] START: sub-sourcesinkumf005
+  OK — 2 graphs created
+Scanning patients:  94%|█████████▍| 317/337 [2:08:41<00:19,  1.04it/s]
+[318/337] START: sub-zurich01
+  OK — 250 graphs created
+Scanning patients:  94%|█████████▍| 318/337 [2:10:05<08:12, 25.93s/it]
+[319/337] START: sub-zurich02
+  OK — 108 graphs created
+Scanning patients:  95%|█████████▍| 319/337 [2:10:53<09:44, 32.46s/it]
+[320/337] START: sub-zurich03
+  OK — 317 graphs created
+Scanning patients:  95%|█████████▍| 320/337 [2:12:22<13:59, 49.39s/it]
+[321/337] START: sub-zurich04
+  OK — 277 graphs created
+Scanning patients:  95%|█████████▌| 321/337 [2:14:25<19:06, 71.65s/it]
+[322/337] START: sub-zurich05
+  OK — 272 graphs created
+Scanning patients:  96%|█████████▌| 322/337 [2:16:25<21:32, 86.18s/it]
+[323/337] START: sub-zurich06
+  OK — 286 graphs created
+Scanning patients:  96%|█████████▌| 323/337 [2:18:33<22:59, 98.51s/it]
+[324/337] START: sub-zurich07
+  OK — 8 graphs created
+Scanning patients:  96%|█████████▌| 324/337 [2:18:36<15:10, 70.06s/it]
+[325/337] START: sub-zurich08
+  OK — 131 graphs created
+Scanning patients:  96%|█████████▋| 325/337 [2:19:34<13:15, 66.32s/it]
+[326/337] START: sub-zurich09
+  OK — 98 graphs created
+Scanning patients:  97%|█████████▋| 326/337 [2:20:17<10:54, 59.54s/it]
+[327/337] START: sub-zurich10
+  OK — 48 graphs created
+Scanning patients:  97%|█████████▋| 327/337 [2:20:32<07:39, 45.99s/it]
+[328/337] START: sub-zurich11
+  OK — 145 graphs created
+Scanning patients:  97%|█████████▋| 328/337 [2:21:53<08:28, 56.45s/it]
+[329/337] START: sub-zurich12
+  OK — 201 graphs created
+Scanning patients:  98%|█████████▊| 329/337 [2:22:59<07:55, 59.49s/it]
+[330/337] START: sub-zurich13
+  OK — 130 graphs created
+Scanning patients:  98%|█████████▊| 330/337 [2:24:17<07:34, 64.89s/it]
+[331/337] START: sub-zurich14
+  OK — 100 graphs created
+Scanning patients:  98%|█████████▊| 331/337 [2:24:56<05:43, 57.19s/it]
+[332/337] START: sub-zurich15
+  OK — 181 graphs created
+Scanning patients:  99%|█████████▊| 332/337 [2:25:58<04:52, 58.48s/it]
+[333/337] START: sub-zurich16
+  OK — 140 graphs created
+Scanning patients:  99%|█████████▉| 333/337 [2:26:45<03:40, 55.24s/it]
+[334/337] START: sub-zurich17
+  OK — 8 graphs created
+Scanning patients:  99%|█████████▉| 334/337 [2:26:48<01:58, 39.48s/it]
+[335/337] START: sub-zurich18
+  OK — 40 graphs created
+Scanning patients:  99%|█████████▉| 335/337 [2:26:56<01:00, 30.15s/it]
+[336/337] START: sub-zurich19
+  OK — 104 graphs created
+Scanning patients: 100%|█████████▉| 336/337 [2:27:36<00:33, 33.11s/it]
+[337/337] START: sub-zurich20
+  OK — 230 graphs created
+Scanning patients: 100%|██████████| 337/337 [2:28:06<00:00, 31.97s/it]Scanning patients: 100%|██████████| 337/337 [2:28:06<00:00, 26.37s/it]
+
+=======================================================
+           DIAGNOSTIC SUMMARY
+=======================================================
+  Total patients      : 337
+  Successful          : 330
+  Failed (no data)    : 7
+  TIMED OUT (hung)    : 0
+
+  Patients with no valid data:
+    sub-Multicenterjh107
+    sub-Multicenterpt1
+    sub-Multicenterumf002
+    sub-Multicenterumf003
+    sub-Multicenterumf004
+    sub-Multicenterumf005
+    sub-hupHUP112
+
+  Full report saved: /home/pmilab/EEG_GNN_Project/code/diagnostic_report.json
+=======================================================
