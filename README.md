@@ -86,51 +86,11 @@ Here are key highlights of EEG-GNN:
 - ⚡ **State-of-the-art ROC-AUC 0.8315** — surpasses TimeConv-CNN (0.8061), SEEG-NET (0.7850), CLAP (0.7684)
 - 🏥 **Clinically aligned** — high Recall (0.6671) minimizes missed seizure onset zones
 - 🔬 **Fully reproducible** — complete pipeline code, preprocessing scripts, result plots included
+
 ## ✨ Architecture
 
 EEG-GNN processes raw iEEG recordings through a five-stage pipeline: data preparation, graph construction, model training, patient-level aggregation, and cross-validated evaluation.
-┌──────────────────────────────────────────────────────────────────────┐
-│                    EEG-GNN ARCHITECTURE                              │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  📂 Raw iEEG (EDF) ──► Preprocessing ──► Windowing                  │
-│       302 patients       Resample 1kHz     60s · 50% overlap         │
-│       8 centers          Bandpass 1-300Hz  13,704 windows            │
-│                                │                                     │
-│                                ▼                                     │
-│                    Feature Extraction (18/node)                      │
-│              ┌─────────────────┬──────────────────┐                  │
-│              │  Time-domain    │  Frequency-domain │                  │
-│              │  mean, std,     │  δ θ α β γ        │                  │
-│              │  skewness,      │  high-γ HFO proxy │                  │
-│              │  kurtosis, RMS  │  + spectral feat  │                  │
-│              └────────┬────────┴──────────────────┘                  │
-│                       │                                              │
-│                       ▼                                              │
-│              Graph Construction                                      │
-│         Nodes: EEG channels                                          │
-│         Edges: Pearson correlation > 0.3                             │
-│         Labels: SOZ (21.3%) vs Normal (78.7%)                        │
-│                       │                                              │
-│                       ▼                                              │
-│  ┌────────────────────────────────────────────────┐                  │
-│  │           GAT v4 (3-layer)                     │                  │
-│  │   Multi-head attention                         │                  │
-│  │   Skip connections + Batch normalization       │                  │
-│  │   Graph context broadcast                      │                  │
-│  │   Focal Loss (α=0.85)                          │                  │
-│  │   3-layer MLP classifier                       │                  │
-│  └────────────────────┬───────────────────────────┘                  │
-│                       │                                              │
-│                       ▼                                              │
-│          Patient-level aggregation                                   │
-│          Mean pooling over all window embeddings                     │
-│                       │                                              │
-│                       ▼                                              │
-│          GroupKFold evaluation (5-fold, patient-level)               │
-│          Recall-constrained threshold search (≥ 0.65)                │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+![Pipeline Architecture](results/graphs/pipeline_architecture.png)
 
 For more on EEG-GNN's architecture, explore the source code in [`code/04_train_recall_gat.py`](code/04_train_recall_gat.py).
 
