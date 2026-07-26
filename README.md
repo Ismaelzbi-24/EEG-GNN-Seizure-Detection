@@ -228,23 +228,25 @@ git commit -m "feat: add spectral coherence edge weights"
 
 ## 📁 Project Structure
 EEG-GNN-Seizure-Detection/
+│
 ├── code/
-│   ├── 01_safe_runner.py           # Manager: parallel patient processing
-│   ├── 01_single_patient.py        # Worker: per-patient pipeline
-│   ├── 01_merge_graphs.py          # Collector: merge all .pt files
-│   ├── 01_process_omni_ieeg.py     # Main preprocessing script
-│   ├── 01_clean.py                 # Data cleaning utilities
-│   ├── 01_diagnostic.py            # Diagnostic checks
-│   ├── 02_train_omni_gat.py        # GAT v2 baseline training
-│   ├── 03_train_improved_gat.py    # GAT v3 with Focal Loss
-│   ├── 04_train_recall_gat.py      # GAT v4 recall-constrained (final)
-│   ├── plot_results.py             # Result visualization
-│   ├── plot_individual.py          # Per-patient plots
-│   ├── soz_app.py                  # SOZ application interface
-│   ├── omni_ieeg_meta.csv          # Dataset metadata
-│   └── requirements.txt            # Python dependencies
+│   ├── 01_safe_runner.py          # Manager: parallel patient processing
+│   ├── 01_single_patient.py       # Worker: per-patient pipeline
+│   ├── 01_process_omni_ieeg.py    # Main preprocessing script
+│   ├── 01_merge_graphs.py         # Collector: merge all .pt files
+│   ├── 01_clean.py                # Data cleaning utilities
+│   ├── 01_diagnostic.py           # Diagnostic checks
+│   ├── 02_train_omni_gat.py       # GAT v2 baseline training
+│   ├── 03_train_improved_gat.py   # GAT v3 with Focal Loss
+│   ├── 04_train_recall_gat.py     # GAT v4 recall-constrained (final)
+│   ├── plot_results.py            # Result visualization
+│   ├── plot_individual.py         # Per-patient plots
+│   ├── soz_app.py                 # SOZ web application
+│   ├── omni_ieeg_meta.csv         # Dataset metadata
+│   └── requirements.txt           # Python dependencies
+│
 ├── results/
-│   └── graphs/                     # All result plots (9 figures)
+│   └── graphs/                    # All result plots (9 figures)
 │       ├── 01_f1_comparison.png
 │       ├── 02_recall_comparison.png
 │       ├── 04_auc_comparison.png
@@ -252,6 +254,7 @@ EEG-GNN-Seizure-Detection/
 │       ├── 06_foldwise_all_metrics.png
 │       ├── 08_confusion_matrix.png
 │       └── 09_model_progression.png
+│
 ├── .gitignore
 ├── processing_log.txt
 └── README.md
