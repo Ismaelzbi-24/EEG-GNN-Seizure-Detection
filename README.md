@@ -227,6 +227,8 @@ git commit -m "feat: add spectral coherence edge weights"
 ---
 
 ## 📁 Project Structure
+
+```
 EEG-GNN-Seizure-Detection/
 │
 ├── code/
@@ -246,7 +248,7 @@ EEG-GNN-Seizure-Detection/
 │   └── requirements.txt           # Python dependencies
 │
 ├── results/
-│   └── graphs/                    # All result plots (9 figures)
+│   └── graphs/                    # All result plots
 │       ├── 01_f1_comparison.png
 │       ├── 02_recall_comparison.png
 │       ├── 04_auc_comparison.png
@@ -258,8 +260,7 @@ EEG-GNN-Seizure-Detection/
 ├── .gitignore
 ├── processing_log.txt
 └── README.md
-
----
+```
 
 ## 👨‍🎓 Team
 
