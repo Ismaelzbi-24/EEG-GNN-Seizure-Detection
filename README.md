@@ -86,10 +86,17 @@ Here are key highlights of EEG-GNN:
 - ⚡ **State-of-the-art ROC-AUC 0.8315** — surpasses TimeConv-CNN (0.8061), SEEG-NET (0.7850), CLAP (0.7684)
 - 🏥 **Clinically aligned** — high Recall (0.6671) minimizes missed seizure onset zones
 - 🔬 **Fully reproducible** — complete pipeline code, preprocessing scripts, result plots included
+- 🌐 **Web app** — upload an `.edf` recording and get a per-electrode SOZ ranking with a channel × time heat map
 
 ## ✨ Architecture
 
-EEG-GNN processes raw iEEG recordings through a five-stage pipeline: data preparation, graph construction, model training, patient-level aggregation, and cross-validated evaluation.
+EEG-GNN processes raw iEEG recordings in four stages:
+
+1. **Data & preprocessing**: EDF recordings are resampled to 1000 Hz, band-pass filtered (1–300 Hz), cleaned of flat channels (up to 64 kept), and cut into 60 s windows with 50% overlap.
+2. **Graph construction**: each window becomes a graph. Channels are nodes with 18 features (time-domain, band power including HFO 80–300 Hz, and spectral). Edges connect channels with |Pearson r| > 0.3.
+3. **GAT v4 model**: three Graph Attention layers (8 heads, 192 hidden units, skip connections) combine node embeddings with graph context, and an MLP outputs an SOZ probability per channel. It is trained with Focal Loss to handle the rare SOZ class.
+4. **Evaluation & output**: 5-fold patient-wise GroupKFold, a recall-constrained threshold (Recall ≥ 0.65), and per-electrode SOZ ranking averaged across windows.
+
 ![Pipeline Architecture](results/graphs/pipeline_architecture.png)
 
 For more on EEG-GNN's architecture, explore the source code in [`code/04_train_recall_gat.py`](code/04_train_recall_gat.py).
@@ -120,6 +127,16 @@ python code/plot_results.py
 ```
 
 > 💡 **Tip:** The Manager-Worker architecture processes patients in parallel and isolates per-patient failures — a crash on one patient will not stop the rest. You can safely re-run the script to resume from failed patients.
+
+---
+
+## 🔒 Trained Model Access
+
+The trained **GAT v4 weights are not included in this repository**. All code needed to train the model yourself is public (see Quick Start above).
+
+If you would like the pretrained model for research or the web app, please contact us at **ismaelzabi302@gmail.com** with your name, affiliation and intended use.
+
+The web app ([`webapp/`](webapp/)) expects the model files in `webapp/models/` and `webapp/site/model/`. See [`webapp/README.md`](webapp/README.md) for setup.
 
 ---
 
@@ -174,7 +191,10 @@ python code/plot_results.py
 | **Our GAT v4** | **Graph-based** | **0.6130** | **0.6671** | **🏆 0.8315** |
 
 > 🏆 **EEG-GNN achieves the highest ROC-AUC (0.8315) across ALL methods** — surpassing TimeConv-CNN (0.8061). Best single fold: F1 = 0.7667.
-> ## 🌟 Stay Ahead
+
+---
+
+## 🌟 Stay Ahead
 
 ⭐ **Star EEG-GNN on GitHub** to stay updated on new releases, dataset support, and model improvements.
 
@@ -185,7 +205,7 @@ python code/plot_results.py
 - 🔜 SHAP-based attention visualization for clinical interpretability
 - 🔜 Multi-label SOZ classification (resected vs preserved vs SOZ)
 - 🔜 Real-time iEEG processing support
-- 🔜 Web-based clinical decision support interface
+- ✅ Web-based clinical decision support interface (see [`webapp/`](webapp/))
 
 ---
 
@@ -231,34 +251,40 @@ git commit -m "feat: add spectral coherence edge weights"
 ```
 EEG-GNN-Seizure-Detection/
 │
-├── code/
-│   ├── 01_safe_runner.py          # Manager: parallel patient processing
-│   ├── 01_single_patient.py       # Worker: per-patient pipeline
-│   ├── 01_process_omni_ieeg.py    # Main preprocessing script
-│   ├── 01_merge_graphs.py         # Collector: merge all .pt files
-│   ├── 01_clean.py                # Data cleaning utilities
-│   ├── 01_diagnostic.py           # Diagnostic checks
-│   ├── 02_train_omni_gat.py       # GAT v2 baseline training
-│   ├── 03_train_improved_gat.py   # GAT v3 with Focal Loss
-│   ├── 04_train_recall_gat.py     # GAT v4 recall-constrained (final)
-│   ├── plot_results.py            # Result visualization
-│   ├── plot_individual.py         # Per-patient plots
-│   ├── soz_app.py                 # SOZ web application
-│   ├── omni_ieeg_meta.csv         # Dataset metadata
-│   └── requirements.txt           # Python dependencies
+├── code/                            # Active pipeline (run in this order)
+│   ├── 01_safe_runner.py            # Manager: runs the worker per patient
+│   ├── 01_single_patient.py         # Worker: per-patient graph building
+│   ├── 01_merge_graphs.py           # Merge all per-patient .pt files
+│   ├── 02_train_node_gat.py         # GAT v2 (node-level, most likely used)
+│   ├── 02_train_omni_gat.py         # GAT v2 (patient-level variant)
+│   ├── 03_train_improved_gat.py     # GAT v3 with Focal Loss
+│   ├── 04_train_recall_gat.py       # GAT v4 recall-constrained (final)
+│   ├── plot_results.py              # Result figures
+│   ├── plot_individual.py           # Individual metric figures
+│   ├── ieegnet_app.py               # SOZ web app (uses v4 model)
+│   ├── omni_ieeg_meta.csv           # Dataset metadata
+│   ├── requirements.txt             # Python dependencies
+│   ├── archive/                     # Superseded / backup / test scripts
+│   └── legacy_hup/                  # Early single-centre HUP experiments
+│
+├── logs/                            # Processing + training logs, diagnostic report
 │
 ├── results/
-│   └── graphs/                    # All result plots
-│       ├── 01_f1_comparison.png
-│       ├── 02_recall_comparison.png
-│       ├── 04_auc_comparison.png
-│       ├── 05_foldwise_f1.png
-│       ├── 06_foldwise_all_metrics.png
-│       ├── 08_confusion_matrix.png
-│       └── 09_model_progression.png
+│   ├── graphs/                      # All result plots + pipeline diagram
+│   └── omni_gat*/                   # Per-version summaries (+ v4 scaler)
 │
+├── webapp/                          # SOZ detection web app
+│   ├── api/                         # FastAPI server + preprocessing/GAT v4 pipeline
+│   ├── site/                        # Website (runs the model in the browser)
+│   ├── models/                      # Trained weights go here (available on request)
+│   ├── test_data/                   # Synthetic EDF for testing
+│   ├── tools/                       # Model export + browser/Python checks
+│   ├── Dockerfile
+│   ├── run_on_colab.ipynb
+│   └── README.md
+│
+├── AUDIT_REPORT.md                  # Code and results audit
 ├── .gitignore
-├── processing_log.txt
 └── README.md
 ```
 

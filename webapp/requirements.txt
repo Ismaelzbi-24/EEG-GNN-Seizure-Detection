@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.1
+torch_geometric>=2.4
+numpy<2.0
+scipy
+# Must be able to unpickle results/omni_gat_v4/scaler.pkl. If you see a version
+# warning or error on load, pin this to the version used on the lab server
+# (check with: python -c "import sklearn; print(sklearn.__version__)").
+scikit-learn
+mne>=1.4
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9

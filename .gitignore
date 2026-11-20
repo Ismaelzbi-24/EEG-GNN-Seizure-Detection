@@ -10,3 +10,12 @@ __pycache__/
 *.log
 .env
 .DS_Store
+
+# Local environments and archives
+.venv/
+venv/
+webapp.zip
+
+# Trained model weights are private (available on request)
+webapp/models/*.pt
+webapp/site/model/

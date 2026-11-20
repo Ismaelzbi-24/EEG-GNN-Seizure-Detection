@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EEG-GNN — Find where the storm starts</title>
+<meta name="description" content="EEG-GNN is a graph neural network that points to the brain area where seizures begin. Open an iEEG recording and see the result — it is analysed privately in your browser.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2307080C'/%3E%3Cpath d='M6 10 L15 4 L26 8 L28 19 L19 28 L7 24 Z' fill='none' stroke='%239FB8FF' stroke-opacity='.55'/%3E%3Cpath d='M16 16 L6 10 M16 16 L19 28' stroke='%239FB8FF' stroke-width='1.8'/%3E%3Cpath d='M16 16 L26 8' stroke='%239FB8FF'/%3E%3Cg fill='%23F2F1EC'%3E%3Ccircle cx='6' cy='10' r='2'/%3E%3Ccircle cx='15' cy='4' r='1.6'/%3E%3Ccircle cx='26' cy='8' r='2'/%3E%3Ccircle cx='28' cy='19' r='1.6'/%3E%3Ccircle cx='19' cy='28' r='2'/%3E%3Ccircle cx='7' cy='24' r='1.6'/%3E%3C/g%3E%3Ccircle cx='16' cy='16' r='5.2' fill='%2307080C' stroke='%23FF5A36' stroke-width='1.4'/%3E%3Ccircle cx='16' cy='16' r='2.6' fill='%23FF5A36'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav-wrap">
+  <nav class="wrap nav" aria-label="Main">
+    <a href="#top" class="brand" aria-label="EEG-GNN, back to top"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><g class="net"><g class="hex" fill="none" stroke="#9FB8FF" stroke-width="1" opacity=".55"><path d="M6 10 L15 4 L26 8 L28 19 L19 28 L7 24 Z"/></g><g class="spokes" stroke="#9FB8FF" stroke-linecap="round"><line pathLength="1" x1="16" y1="16" x2="6" y2="10" stroke-width="1.8"/><line pathLength="1" x1="16" y1="16" x2="26" y2="8" stroke-width="1"/><line pathLength="1" x1="16" y1="16" x2="19" y2="28" stroke-width="1.8"/><line pathLength="1" x1="16" y1="16" x2="28" y2="19" stroke-width=".7" opacity=".6"/></g><g class="nodes" fill="#F2F1EC"><circle cx="6" cy="10" r="2"/><circle cx="15" cy="4" r="1.6"/><circle cx="26" cy="8" r="2"/><circle cx="28" cy="19" r="1.6"/><circle cx="19" cy="28" r="2"/><circle cx="7" cy="24" r="1.6"/></g></g><circle class="ping" cx="16" cy="16" r="4" fill="none" stroke="#FF5A36" stroke-width="1.2"/><circle class="halo" cx="16" cy="16" r="5.2" fill="#07080C" stroke="#FF5A36" stroke-width="1.4"/><circle class="core" cx="16" cy="16" r="2.6" fill="#FF5A36"/></svg><span class="word">EEG<svg class="spk" viewBox="0 0 30 16" aria-hidden="true"><path pathLength="1" d="M1 9 H9 L12 3 L16 14 L19 6 L21 9 H29" fill="none" stroke="#FF5A36" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>GNN</span></a>
+    <div class="nav-links mono">
+      <a href="#watch">Watch it</a>
+      <a href="#how">How</a>
+      <a href="#results">Results</a>
+      <a href="#try" class="nav-try">Try it</a>
+      <a href="https://github.com/Ismaelzbi-24/EEG-GNN-Seizure-Detection" class="nav-cta">GitHub ↗</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="top" class="hero">
+  <svg class="hero-waves" aria-hidden="true" viewBox="0 0 1600 640" preserveAspectRatio="xMidYMid slice"><g class="drift" id="heroWaves" fill="none"></g></svg>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow mono"><span><span class="hot">●</span> Seizure onset zone detection</span><span>UET Taxila</span><span>FYP 2026</span></p>
+    <h1 class="display"><span>Find where</span><span>the storm <em>starts.</em></span></h1>
+    <div class="hero-row">
+      <p class="lead">A seizure is an electrical storm in the brain. Surgery can stop it — if doctors know exactly where it begins. <strong>EEG-GNN is an AI that reads brain recordings as a network and points to that spot.</strong></p>
+      <div class="btns">
+        <a href="#try" class="btn btn-hot">Analyse a recording <span aria-hidden="true">→</span></a>
+        <a href="#watch" class="btn btn-ghost">Watch how it works</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="stats">
+      <div><b>310</b><span class="mono">Patients</span></div>
+      <div><b>13,704</b><span class="mono">Brain-network snapshots</span></div>
+      <div><b>0.83</b><span class="mono">ROC-AUC on unseen patients</span></div>
+      <div><b>5</b><span class="mono">Hospital data sources</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- WATCH -->
+<section id="watch" class="band">
+  <div class="wrap pad">
+    <div class="head">
+      <div><p class="kicker mono">01 — Watch it</p>
+        <h2 class="h2">One minute.<br>One spark.<br><span class="dim">Dozens of electrodes.</span></h2></div>
+      <p class="side">Press play, or drag the timeline. Each dot is an electrode on the brain — hover one to see what it is doing. Watch how fast a seizure spreads — and why finding the <em>first</em> dot by eye is so hard.</p>
+    </div>
+    <div class="panel sim">
+      <div class="bar mono"><span><span id="simDot">●</span> <span id="simTag">Phase 1 · Calm</span></span><span>Simulated illustration · not a real patient</span><span class="clock" id="simClock">00:00 <i>/ 01:00</i></span></div>
+      <div class="sim-body">
+        <div class="sim-brain"><div class="brain" id="simBrain"></div></div>
+        <div class="sim-story">
+          <div><div class="mono small" id="simTag2">Phase 1 · Calm</div>
+            <h3 class="h3" id="simTitle">Everything looks normal.</h3>
+            <p id="simText">Brain areas chatter away at a steady rhythm. Nothing stands out yet.</p></div>
+          <ul class="legend">
+            <li><i style="background:#8C9AC8"></i>Normal activity</li>
+            <li><i style="background:#FF5A36"></i>Seizure activity reaching this electrode</li>
+            <li><i style="background:#B04A30"></i>Already taken over</li>
+          </ul>
+          <div class="sim-actions">
+            <button type="button" class="chip mono" id="simPred" aria-pressed="false">Show AI answer</button>
+            <button type="button" class="chip mono" id="simEnd">Skip to answer</button>
+          </div>
+        </div>
+      </div>
+      <div class="strips" id="simStrips"></div>
+      <div class="transport">
+        <button type="button" class="play" id="simPlay" aria-label="Play"></button>
+        <label for="simScrub" class="sr">Timeline, seconds</label>
+        <input id="simScrub" type="range" min="0" max="60" step="0.25" value="0">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="band">
+  <div class="wrap pad why">
+    <div><p class="kicker mono">02 — Why it matters</p><div class="huge">1<em>/</em>3</div></div>
+    <div>
+      <h2 class="h2s">of people with epilepsy keep having seizures even on medication.</h2>
+      <p class="body-lg">For many of them, surgery to remove the small patch of brain where seizures begin — the <strong>seizure onset zone</strong> — is the best hope. But finding that patch today means experts reading days of recordings by eye. It is slow, it varies from expert to expert, and only a few hospitals can do it.</p>
+      <div class="three"><div><b>Slow</b><span>days of data per patient</span></div><div><b>Subjective</b><span>experts can disagree</span></div><div><b>Scarce</b><span>few specialist centres</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section id="how" class="band">
+  <div class="wrap pad">
+    <div class="head">
+      <div><p class="kicker mono">03 — How it works</p><h2 class="h2">Brain waves in.<br>A map out.</h2></div>
+      <p class="side">Four steps, no medical degree required. The grey line under each step is for the technical folks.</p>
+    </div>
+    <div class="grid4">
+      <article><div class="mono idx">/01</div>
+        <svg class="ill ill-listen" viewBox="0 0 200 90" aria-hidden="true"><g class="waves" fill="none" stroke="#9FB8FF" stroke-width="1.5"><path d="M0 20 Q10 8 20 20 T40 20 T60 20 T80 20 T100 20 T120 20 T140 20 T160 20 T180 20 T200 20"/><path d="M0 45 Q7 35 14 45 T28 45 T42 45 T56 45 T70 45 T84 45 T98 45 T112 45 T126 45 T140 45 T154 45 T168 45 T182 45 T196 45"/></g><path class="spike" pathLength="1" d="M0 72 L80 72 L88 56 L96 88 L104 52 L112 86 L120 60 L128 72 L200 72" fill="none" stroke="#FF5A36" stroke-width="1.8"/></svg>
+        <h3>Listen</h3><p>Small electrodes on the brain record its electrical activity — like dozens of microphones placed around a room.</p><p class="tech mono">iEEG · up to 64 channels</p></article>
+      <article><div class="mono idx">/02</div>
+        <svg class="ill ill-slice" viewBox="0 0 200 90" aria-hidden="true"><path class="sig" d="M0 45 Q6 25 12 45 T24 45 T36 45 T48 45 T60 45 T72 45 T84 45 T96 45 T108 45 T120 45 T132 45 T144 45 T156 45 T168 45 T180 45 T192 45 T204 45" fill="none" stroke="#9FB8FF" stroke-width="1.5"/><g fill="none" stroke="#F2F1EC" stroke-width="1.2"><rect x="4" y="12" width="64" height="66"/><rect x="68" y="12" width="64" height="66"/><rect x="132" y="12" width="64" height="66"/></g><rect class="win" x="36" y="6" width="64" height="78" fill="none" stroke="#FF5A36" stroke-width="1.2" stroke-dasharray="4 4"/></svg>
+        <h3>Slice</h3><p>The recording is cut into one-minute pieces that overlap, so nothing slips between the cracks.</p><p class="tech mono">60 s windows · 50% overlap</p></article>
+      <article><div class="mono idx">/03</div>
+        <svg class="ill ill-connect" viewBox="0 0 200 90" aria-hidden="true"><g class="links" stroke="#9FB8FF"><line pathLength="1" x1="30" y1="25" x2="100" y2="12" stroke-width="3"/><line pathLength="1" x1="100" y1="12" x2="170" y2="30" stroke-width="1"/><line pathLength="1" x1="30" y1="25" x2="60" y2="75" stroke-width="1.5"/><line pathLength="1" x1="60" y1="75" x2="140" y2="76" stroke-width="3.5"/><line pathLength="1" x1="140" y1="76" x2="170" y2="30" stroke-width="2"/><line pathLength="1" x1="100" y1="12" x2="140" y2="76" stroke-width="1"/></g><g class="dots" fill="#F2F1EC"><circle cx="30" cy="25" r="6"/><circle cx="100" cy="12" r="6"/><circle cx="170" cy="30" r="6"/><circle cx="60" cy="75" r="6"/><circle cx="140" cy="76" r="6"/></g></svg>
+        <h3>Connect</h3><p>Each electrode becomes a dot. Areas that rise and fall together get a line — thicker means more in sync.</p><p class="tech mono">Pearson-correlation graph · 18 features per node</p></article>
+      <article><div class="mono idx">/04</div>
+        <svg class="ill ill-judge" viewBox="0 0 200 90" aria-hidden="true"><g class="links" stroke="#9FB8FF"><line pathLength="1" x1="100" y1="45" x2="40" y2="15" stroke-width="3.5"/><line pathLength="1" x1="100" y1="45" x2="160" y2="15" stroke-width="1" opacity=".35"/><line pathLength="1" x1="100" y1="45" x2="40" y2="78" stroke-width="1" opacity=".35"/><line pathLength="1" x1="100" y1="45" x2="160" y2="78" stroke-width="3"/></g><g class="dots" fill="#F2F1EC"><circle cx="40" cy="15" r="6"/><circle cx="160" cy="15" r="6" opacity=".35"/><circle cx="40" cy="78" r="6" opacity=".35"/><circle cx="160" cy="78" r="6"/></g><circle class="pulse" cx="100" cy="45" r="13" fill="none" stroke="#FF5A36" stroke-width="1.5"/><circle class="target" cx="100" cy="45" r="13" fill="#07080C" stroke="#FF5A36" stroke-width="2"/><circle class="core" cx="100" cy="45" r="5" fill="#FF5A36"/></svg>
+        <h3>Judge</h3><p>The AI looks at every dot together with its neighbours, listens hardest to the links that matter, and scores how likely it is to be the starting point.</p><p class="tech mono">Graph Attention Network · focal loss</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results" class="band">
+  <div class="wrap pad">
+    <div class="head">
+      <div><p class="kicker mono">04 — Results</p><h2 class="h2">Tested on brains<br>it had never seen.</h2></div>
+      <p class="side">We trained on some patients and tested on completely different ones — five rounds, averaged. Here is what that means in normal words.</p>
+    </div>
+    <div class="metrics">
+      <div><div class="big hot">83<small>/100</small></div><p class="m-t">Picks the right one.</p><p class="m-b">Show it one onset electrode and one normal one — it ranks the onset one higher 83 times in 100.</p><p class="tech mono">ROC-AUC 0.832</p></div>
+      <div><div class="big">2<small> of 3</small></div><p class="m-t">Onset spots caught.</p><p class="m-b">Of the electrodes truly in the onset zone, it flags about two out of every three.</p><p class="tech mono">Recall 0.667</p></div>
+      <div><div class="big">6<small> of 10</small></div><p class="m-t">Flags are real.</p><p class="m-b">When it raises a flag, about six times in ten that electrode really is in the onset zone.</p><p class="tech mono">Precision 0.585</p></div>
+      <div><div class="big">82<small>%</small></div><p class="m-t">Overall agreement.</p><p class="m-b">Across every electrode, its yes/no matched the doctors’ labels 82% of the time.</p><p class="tech mono">Accuracy 0.820</p></div>
+    </div>
+    <div class="versions">
+      <div class="v-head"><h3 class="h3">Three versions, getting sharper.</h3>
+        <p>Score for telling onset electrodes apart from normal ones (ROC-AUC × 100). Hover a bar to see what changed.</p></div>
+      <div class="v-rows" id="vRows">
+        <div class="vrow" style="--w:74.8;--c:#2E3450;--lc:#8A8F9C" tabindex="0"><span class="mono vl">v2 first</span><div class="vt"><i></i><em>Node-level GAT · cross-entropy loss</em></div><b data-v="74.8">0.0</b></div>
+        <div class="vrow" style="--w:82.7;--c:#4A5480;--lc:#A9ADB8" tabindex="0"><span class="mono vl">v3 focal</span><div class="vt"><i></i><em>3-layer GAT · focal loss · graph context · +7.9</em></div><b data-v="82.7">0.0</b></div>
+        <div class="vrow best" style="--w:83.2;--c:#FF5A36;--lc:#FF5A36" tabindex="0"><span class="mono vl">v4 final</span><div class="vt"><i></i><em>Recall-constrained threshold · +0.5</em></div><b data-v="83.2">0.0</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRY IT -->
+<section id="try" class="band try">
+  <div class="wrap pad">
+    <div class="head">
+      <div><p class="kicker mono">05 — Try it</p><h2 class="h2">Drop in a recording.<br><span class="hot">Get the map.</span></h2></div>
+      <div class="side">
+        <p>Choose an intracranial EEG file (<span class="mono">.edf</span>). The model runs right here in your browser, reads it minute by minute and ranks every electrode by how likely it is to be in the seizure onset zone.</p>
+        <p class="api-status mono" id="apiStatus"><span class="led"></span><span id="apiText">Loading the model…</span></p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="bar mono"><span>Analysis</span><span>Research use only · not a diagnosis</span><span id="jobClock"></span></div>
+
+      <!-- Step: upload -->
+      <div id="stUpload" class="state">
+        <label class="drop" id="drop" for="file">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4"/><path d="m6 10 6-6 6 6"/><path d="M4 20h16"/></svg>
+          <span class="drop-t">Drop an .edf file here</span>
+          <span class="drop-s">or click to choose · up to <span id="maxMb">4000</span> MB · at least 60 seconds · sampled at 600 Hz or more</span>
+          <input type="file" id="file" accept=".edf,.EDF" class="sr">
+        </label>
+        <p class="privacy">Your file never leaves your computer: the model runs inside this browser tab and nothing is uploaded or saved. Large recordings can take a minute or two.</p>
+      </div>
+
+      <!-- Step: running -->
+      <div id="stRun" class="state" hidden>
+        <div class="run">
+          <div class="mono small" id="runFile"></div>
+          <div class="run-pct" id="runPct">0%</div>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="runBar"><i></i></div>
+          <p class="run-stage" id="runStage" aria-live="polite">Reading the file…</p>
+        </div>
+      </div>
+
+      <!-- Step: error -->
+      <div id="stErr" class="state" hidden>
+        <div class="run">
+          <div class="mono small hot">Couldn’t analyse this file</div>
+          <p class="run-stage" id="errText"></p>
+          <button type="button" class="btn btn-ghost" id="errBack">Try another file</button>
+        </div>
+      </div>
+
+      <!-- Step: result -->
+      <div id="stRes" class="state" hidden>
+        <div class="res-top">
+          <div class="res-head">
+            <div class="mono small" id="resFile"></div>
+            <h3 class="res-title" id="resTitle"></h3>
+            <p class="res-sub" id="resSub"></p>
+          </div>
+          <div class="res-ctl">
+            <label for="thr" class="mono small">Sensitivity threshold <b id="thrVal">0.50</b></label>
+            <input type="range" id="thr" min="0.05" max="0.95" step="0.01" value="0.5">
+            <p class="tiny">Lower = flag more electrodes (miss fewer). Higher = flag only the strongest.</p>
+          </div>
+        </div>
+        <div class="res-sum" aria-label="How clear is this result">
+          <div class="sum-tiles" id="sumTiles"></div>
+          <div class="verdict" id="verdict"></div>
+        </div>
+        <div class="res-body">
+          <div class="res-list">
+            <div class="mono small sect">Electrodes, most likely first</div>
+            <ol id="chanList" class="chans"></ol>
+            <button type="button" class="linkish mono" id="showAll">Show all electrodes</button>
+          </div>
+          <div class="res-time">
+            <div class="mono small sect">Over time · top 12 electrodes</div>
+            <div class="heat" id="heat"></div>
+            <div class="heat-scale mono"><span>low</span><i></i><span>high</span></div>
+            <p class="tiny">Each column is one minute-window of the recording. Bright = the model thought this electrode looked like onset zone in that minute.</p>
+          </div>
+        </div>
+        <div class="res-band" id="netBand">
+          <div class="band-head">
+            <div>
+              <div class="mono small sect">The network the model read</div>
+              <p class="tiny">Each dot is an electrode; a line means their signals move together. Press play to step through the recording: colours follow each minute's score and the network re-forms around that minute's strongest links. Click an electrode to select it, or drag it.</p>
+            </div>
+            <div class="player">
+              <button type="button" id="netPlay" class="play" aria-label="Play through the recording"></button>
+              <input type="range" id="netScrub" min="0" max="1" step="0.01" value="0" aria-label="Minute-window">
+              <span class="mono small" id="netClock"></span>
+            </div>
+          </div>
+          <div class="net-grid">
+            <svg id="net" viewBox="0 0 640 520" role="img" aria-label="Electrode network coloured by score, minute by minute"></svg>
+            <div class="net-side">
+              <div class="key-row mono"><span>low</span><i class="ramp"></i><span>high score</span></div>
+              <div class="key-row"><span class="dot-key"></span><span class="tiny" style="margin:0">Information reaching the selected electrode (brighter = stronger link)</span></div>
+              <p class="net-win" id="netWin"></p>
+              <p class="tiny" id="netTop"></p>
+              <div class="selcard">
+                <p class="net-sel" id="netSel"></p>
+                <svg id="netSpark" viewBox="0 0 300 60" aria-hidden="true"></svg>
+              </div>
+              <p class="tiny">Strongest links this minute (|correlation|):</p>
+              <ul class="links" id="netLinks"></ul>
+              <p class="tiny" id="netStats"></p>
+            </div>
+          </div>
+        </div>
+        <div class="res-band" id="fpBand">
+          <div class="band-head">
+            <div>
+              <div class="mono small sect">What is different about this electrode</div>
+              <p class="tiny">How the selected electrode's 18 signal features compare with the typical electrode in this recording. This describes the signal; it is not the model's full reasoning.</p>
+            </div>
+            <label class="fp-pick"><span class="mono small">Electrode</span><select id="fpPick"></select></label>
+          </div>
+          <svg id="fp" viewBox="0 0 1000 560" role="img" aria-label="Feature differences from the typical electrode"></svg>
+          <div class="key-row"><span class="sw" style="background:var(--ice)"></span><span class="tiny" style="margin:0">Lower than typical</span><span class="sw" style="background:var(--hot)"></span><span class="tiny" style="margin:0">Higher than typical</span><span class="tiny" style="margin:0">· units: standard deviations from training data</span></div>
+          <details class="fp-tbl"><summary class="mono small">Show the numbers as a table</summary><div class="tbl"><table id="fpTbl"></table></div></details>
+        </div>
+        <div class="res-foot">
+          <button type="button" class="btn btn-ghost" id="dlCsv">Download CSV</button>
+          <button type="button" class="btn btn-ghost" id="again">Analyse another file</button>
+          <p class="tiny" id="resModel"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STRAIGHT TALK -->
+<section class="band">
+  <div class="wrap pad two">
+    <div>
+      <p class="kicker mono">06 — Straight talk</p>
+      <h2 class="h2m">A second pair of eyes. Not the surgeon.</h2>
+      <ul class="checks">
+        <li><i class="hot">✕</i>Not an approved medical device — this is a university research project.</li>
+        <li><i class="hot">✕</i>It still misses about 1 in 3 onset electrodes, so it can’t replace an expert review.</li>
+        <li><i class="ice">✓</i>It suggests where to look first — doctors make every decision.</li>
+        <li><i class="ice">✓</i>Built on public data from several hospitals; it needs testing at new hospitals next.</li>
+      </ul>
+    </div>
+    <div>
+      <p class="mono small">Questions people ask</p>
+      <div class="faq" id="faq"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="band">
+  <div class="wrap pad">
+    <div class="head">
+      <div><p class="kicker mono">07 — Team</p><h2 class="h2">Made at UET Taxila.</h2></div>
+      <p class="mono small">Dept. of Software Engineering · FYP 2026</p>
+    </div>
+    <div class="team">
+      <div><b>Syed Ismael</b><span class="mono">22-SE-95</span><p>GAT model development and evaluation</p></div>
+      <div><b>Atif Khan</b><span class="mono">22-SE-79</span><p>Graph construction and preprocessing</p></div>
+      <div><b>Laraib Kanwal</b><span class="mono">22-SE-101</span><p>Feature extraction and visualisation</p></div>
+      <div><b>Dr. Saima Zareen</b><span class="mono hot">Supervisor</span><p>Assistant Professor, Software Engineering, UET Taxila</p></div>
+      <div><b>Dr. Syed Muhammad Anwar</b><span class="mono hot">Co-supervisor</span><p>Children’s National Hospital · George Washington University</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap pad-end">
+    <p class="mono small">It’s all open source<span class="blink hot">_</span></p>
+    <a href="https://github.com/Ismaelzbi-24/EEG-GNN-Seizure-Detection" class="giant">Read the code ↗</a>
+    <a href="mailto:ismaelzabi302@gmail.com" class="mail">ismaelzabi302@gmail.com</a>
+    <div class="foot mono"><span>EEG—GNN · UET Taxila · 2026</span><span>Research prototype · Not for clinical use</span></div>
+  </div>
+</section>
+</main>
+
+<script src="insights.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
